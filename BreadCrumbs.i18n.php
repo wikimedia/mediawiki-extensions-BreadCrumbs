@@ -173,7 +173,7 @@ $messages['eu'] = array(
  * @author Nike
  */
 $messages['fi'] = array(
-	'breadcrumbs-desc' => 'Näyttää käyttäjän kulkeman reitin wikissä',
+	'breadcrumbs-desc' => 'Näyttää wikissä kuljetun reitin.',
 );
 
 /** French (Français)
