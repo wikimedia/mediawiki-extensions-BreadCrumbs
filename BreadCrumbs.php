@@ -33,6 +33,14 @@ $wgExtensionCredits['parserhook'][] = array(
 	'descriptionmsg' => 'breadcrumbs-desc',
 );
 
+# Ressource loader
+$wgResourceModules['ext.breadCrumbs'] = array(
+	'styles' => 'BreadCrumbs.css',
+
+	'localBasePath' => dirname( __FILE__ ),
+	'remoteExtPath' => 'BreadCrumbs'
+);
+
 # Set Hook:
 
 # Showing and updating the breadcrumbs trail

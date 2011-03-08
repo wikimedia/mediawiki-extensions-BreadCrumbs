@@ -64,14 +64,11 @@ function fnBreadCrumbsShowHook( &$m_pageObj ) {
 
 # Entry point for the hook for printing the CSS:
 function fnBreadCrumbsOutputHook( &$m_pageObj, $m_parserOutput ) {
-	global $wgScriptPath, $wgBreadCrumbsShowAnons, $wgUser;
+	global $wgBreadCrumbsShowAnons, $wgUser;
 
-	if ( !$wgBreadCrumbsShowAnons && $wgUser->isAnon() )
-		return true;
-
-	# Register CSS file for our select box:
-	$m_pageObj->addExtensionStyle( $wgScriptPath .
-		'/extensions/BreadCrumbs/BreadCrumbs.css' );
+	if ( $wgBreadCrumbsShowAnons || $wgUser->isLoggedIn() ) {
+		$m_pageObj->addModules( 'ext.breadCrumbs' );
+	}
 
 	# Be nice:
 	return true;
