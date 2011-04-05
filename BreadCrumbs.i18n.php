@@ -128,9 +128,11 @@ $messages['da'] = array(
 	'breadcrumbs-desc' => 'Viser brugerstien på wikien',
 );
 
-/** German (Deutsch) */
+/** German (Deutsch)
+ * @author Kghbln
+ */
 $messages['de'] = array(
-	'breadcrumbs-desc' => 'Zeigt den Weg des Benutzers durch das Wiki',
+	'breadcrumbs-desc' => 'Ermöglicht die Anzeige des Navigationsweges des Benutzers durch das Wiki',
 );
 
 /** Lower Sorbian (Dolnoserbski)
