@@ -16,13 +16,6 @@ $messages['qqq'] = array(
 	'breadcrumbs-desc' => '{{desc}}',
 );
 
-/** Jamaican Creole English (Jamaican Creole English)
- * @author Yocahuna
- */
-$messages['jam'] = array(
-	'breadcrumbs-desc' => 'Shuo di yuuza paat chruu di wiki',
-);
-
 /** Afrikaans (Afrikaans)
  * @author Naudefj
  */
@@ -170,6 +163,13 @@ $messages['eu'] = array(
 	'breadcrumbs-desc' => 'Wikian zeharreko erabiltzaileen ibilbidea erakusten du',
 );
 
+/** Persian (فارسی)
+ * @author Ebraminio
+ */
+$messages['fa'] = array(
+	'breadcrumbs-desc' => 'مسیر کاربران در ویکی نمایش می‌دهد',
+);
+
 /** Finnish (Suomi)
  * @author Cimon Avaro
  * @author Nike
@@ -310,6 +310,13 @@ $messages['it'] = array(
  */
 $messages['ja'] = array(
 	'breadcrumbs-desc' => '利用者のウィキ上での軌跡を表示する',
+);
+
+/** Jamaican Creole English (Jamaican Creole English)
+ * @author Yocahuna
+ */
+$messages['jam'] = array(
+	'breadcrumbs-desc' => 'Shuo di yuuza paat chruu di wiki',
 );
 
 /** Javanese (Basa Jawa)
