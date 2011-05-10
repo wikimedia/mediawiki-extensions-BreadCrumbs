@@ -44,6 +44,13 @@ $messages['arz'] = array(
 	'breadcrumbs-desc' => 'يعرض مسار المستخدمين خلال الويكى',
 );
 
+/** Asturian (Asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'breadcrumbs-desc' => 'Amuesa el percorríu del usuariu pela wiki',
+);
+
 /** Bashkir (Башҡортса)
  * @author Assele
  */
