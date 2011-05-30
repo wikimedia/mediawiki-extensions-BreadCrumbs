@@ -14,7 +14,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 	die();
 }
 
-function fnBreadCrumbsShowHook( &$m_pageObj ) {
+function fnBreadCrumbsShowHook( &$article ) {
 	global $wgOut, $wgUser;
 	global $wgBreadCrumbsDelimiter, $wgBreadCrumbsCount, $wgBreadCrumbsShowAnons;
 
@@ -27,7 +27,7 @@ function fnBreadCrumbsShowHook( &$m_pageObj ) {
 	# cache index of last element:
 	$m_count = count( $m_BreadCrumbs ) - 1;
 	# Title object for the page we're viewing
-	$title = $m_pageObj->getTitle();
+	$title = $article->getTitle();
 
 	# check for doubles:
 	if ( $m_count < 1 || $m_BreadCrumbs[ $m_count ] != $title->getPrefixedText() ) {
@@ -43,8 +43,6 @@ function fnBreadCrumbsShowHook( &$m_pageObj ) {
 	# update cache:
 	$m_count = count( $m_BreadCrumbs ) - 1;
 
-	# acquire a skin object:
-	$m_skin = $wgUser->getSkin();
 	# build the breadcrumbs trail:
 	$m_trail = '<div id="BreadCrumbsTrail">';
 	for ( $i = 0; $i <= $m_count; $i++ ) {
@@ -64,11 +62,11 @@ function fnBreadCrumbsShowHook( &$m_pageObj ) {
 }
 
 # Entry point for the hook for printing the CSS:
-function fnBreadCrumbsOutputHook( &$m_pageObj, $m_parserOutput ) {
-	global $wgBreadCrumbsShowAnons, $wgUser;
+function fnBreadCrumbsOutputHook( &$outputPage, $parserOutput ) {
+	global $wgBreadCrumbsShowAnons;
 
-	if ( $wgBreadCrumbsShowAnons || $wgUser->isLoggedIn() ) {
-		$m_pageObj->addModules( 'ext.breadCrumbs' );
+	if ( $wgBreadCrumbsShowAnons || $outputPage->getUser()->isLoggedIn() ) {
+		$outputPage->addModules( 'ext.breadCrumbs' );
 	}
 
 	# Be nice:
