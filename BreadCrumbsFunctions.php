@@ -48,7 +48,8 @@ function fnBreadCrumbsShowHook( &$m_pageObj ) {
 	# build the breadcrumbs trail:
 	$m_trail = '<div id="BreadCrumbsTrail">';
 	for ( $i = 0; $i <= $m_count; $i++ ) {
-		$m_trail .= $m_skin->makeLink( $m_BreadCrumbs[$i] );
+		$title = Title:newFromText( $m_BreadCrumbs[$i] );
+		$m_trail .= Linker::link( $title, $m_BreadCrumbs[$i] );
 		if ( $i < $m_count ) $m_trail .= $wgBreadCrumbsDelimiter;
 	}
 	$m_trail .= '</div>';
