@@ -418,6 +418,13 @@ $messages['mr'] = array(
 	'breadcrumbs-desc' => 'विकिमधील सदस्याचा मार्ग (पाथ) दर्शविते',
 );
 
+/** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
+ */
+$messages['ms'] = array(
+	'breadcrumbs-desc' => 'Menunjukkan laluan melalui wiki kepada pengguna',
+);
+
 /** Nahuatl (Nāhuatl)
  * @author Fluence
  */
