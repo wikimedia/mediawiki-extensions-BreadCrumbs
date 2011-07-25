@@ -443,7 +443,7 @@ $messages['nds'] = array(
  * @author Servien
  */
 $messages['nds-nl'] = array(
-	'breadcrumbs-desc' => "Geef 't pad weer dat gebruker in de wiki deurlopen.",
+	'breadcrumbs-desc' => 'Geef t pad weer dat gebruker in de wiki deurlopen.',
 );
 
 /** Nepali (नेपाली)
