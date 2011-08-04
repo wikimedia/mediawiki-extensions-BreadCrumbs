@@ -157,10 +157,11 @@ $messages['eo'] = array(
 );
 
 /** Spanish (Español)
+ * @author Fitoschido
  * @author Sanbec
  */
 $messages['es'] = array(
-	'breadcrumbs-desc' => 'Muestra el enlace de las últimas páginas que el usuario ha visitado en la wiki',
+	'breadcrumbs-desc' => 'Muestra enlaces a las páginas visitadas por los usuarios a través del wiki',
 );
 
 /** Basque (Euskara)
