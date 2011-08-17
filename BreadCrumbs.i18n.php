@@ -320,7 +320,7 @@ $messages['ja'] = array(
 	'breadcrumbs-desc' => '利用者のウィキ上での軌跡を表示する',
 );
 
-/** Jamaican Creole English (Jamaican Creole English)
+/** Jamaican Creole English (Patios)
  * @author Yocahuna
  */
 $messages['jam'] = array(
@@ -554,7 +554,7 @@ $messages['ru'] = array(
 	'breadcrumbs-desc' => 'Показывает путь участников по вики',
 );
 
-/** Yakut (Саха тыла)
+/** Sakha (Саха тыла)
  * @author HalanTul
  */
 $messages['sah'] = array(
