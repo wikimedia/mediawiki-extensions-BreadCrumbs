@@ -320,7 +320,7 @@ $messages['ja'] = array(
 	'breadcrumbs-desc' => '利用者のウィキ上での軌跡を表示する',
 );
 
-/** Jamaican Creole English (Patios)
+/** Jamaican Creole English (Patois)
  * @author Yocahuna
  */
 $messages['jam'] = array(
@@ -561,7 +561,7 @@ $messages['sah'] = array(
 	'breadcrumbs-desc' => 'Кыттааччылар биики устун хамсыылларын көрдөрөр',
 );
 
-/** Tachelhit (Tašlḥiyt)
+/** Tachelhit (Tašlḥiyt/ⵜⴰⵛⵍⵃⵉⵜ)
  * @author Dalinanir
  */
 $messages['shi'] = array(
@@ -589,14 +589,14 @@ $messages['sq'] = array(
 	'breadcrumbs-desc' => 'Tregon rrugën e përdoruesit nëpër wiki',
 );
 
-/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
  * @author Михајло Анђелковић
  */
 $messages['sr-ec'] = array(
 	'breadcrumbs-desc' => 'Показује путање корисника кроз Вики',
 );
 
-/** Serbian Latin ekavian (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪Srpski (latinica)‬)
  * @author Michaello
  */
 $messages['sr-el'] = array(
@@ -645,14 +645,14 @@ $messages['tet'] = array(
 	'breadcrumbs-desc' => "Hatudu dalan uza-na'in nian husi wiki.",
 );
 
-/** Tajik (Cyrillic) (Тоҷикӣ (Cyrillic))
+/** Tajik (Cyrillic script) (Тоҷикӣ)
  * @author Ibrahim
  */
 $messages['tg-cyrl'] = array(
 	'breadcrumbs-desc' => 'Роҳи корбар тариқи викиро нишон медиҳад',
 );
 
-/** Tajik (Latin) (Тоҷикӣ (Latin))
+/** Tajik (Latin script) (tojikī)
  * @author Liangent
  */
 $messages['tg-latn'] = array(
