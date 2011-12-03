@@ -197,7 +197,7 @@ $messages['fr'] = array(
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
-	'breadcrumbs-desc' => 'Montre lo lim de les dèrriéres pâges que l’utilisator at visitâs dens lo vouiqui',
+	'breadcrumbs-desc' => 'Montre lo lim de les dèrriéres pâges que l’usanciér at visitâs dens lo vouiqui',
 );
 
 /** Western Frisian (Frysk)
