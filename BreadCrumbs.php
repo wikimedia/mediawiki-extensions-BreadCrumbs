@@ -29,7 +29,7 @@ $wgExtensionCredits['parserhook'][] = array(
 	'path'           => __FILE__,
 	'name'           => 'BreadCrumbs',
 	'author'         => 'Manuel Schneider',
-	'url'            => 'http://www.mediawiki.org/wiki/Extension:BreadCrumbs',
+	'url'            => 'https://www.mediawiki.org/wiki/Extension:BreadCrumbs',
 	'descriptionmsg' => 'breadcrumbs-desc',
 );
 
