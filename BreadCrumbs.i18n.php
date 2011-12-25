@@ -471,7 +471,7 @@ $messages['nn'] = array(
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
  * @author Jon Harald Søby
  */
-$messages['no'] = array(
+$messages['nb'] = array(
 	'breadcrumbs-desc' => 'Viser brukerens sti gjennom wikien',
 );
 
