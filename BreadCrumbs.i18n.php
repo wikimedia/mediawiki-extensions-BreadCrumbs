@@ -433,6 +433,13 @@ $messages['nah'] = array(
 	'breadcrumbs-desc' => 'Tiquinttāz tlatequitiltilīlli in īoh huiquitoca',
 );
 
+/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+ * @author Jon Harald Søby
+ */
+$messages['nb'] = array(
+	'breadcrumbs-desc' => 'Viser brukerens sti gjennom wikien',
+);
+
 /** Low German (Plattdüütsch)
  * @author Slomox
  */
@@ -468,18 +475,18 @@ $messages['nn'] = array(
 	'breadcrumbs-desc' => 'Viser stigen til brukaren gjennom wikien',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Jon Harald Søby
- */
-$messages['nb'] = array(
-	'breadcrumbs-desc' => 'Viser brukerens sti gjennom wikien',
-);
-
 /** Occitan (Occitan)
  * @author Cedric31
  */
 $messages['oc'] = array(
 	'breadcrumbs-desc' => 'Aficha lo ligam de las darrièras paginas que l’utilizaire a visitadas dins lo wiki',
+);
+
+/** Oriya (ଓଡ଼ିଆ)
+ * @author Ansumang
+ */
+$messages['or'] = array(
+	'breadcrumbs-desc' => 'ଉଇକି ମାଧ୍ୟମରେ ବ୍ୟବହାରକାରୀଙ୍କ ମାର୍ଗ ଦେଖାଏ',
 );
 
 /** Papiamento (Papiamentu)
