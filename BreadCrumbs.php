@@ -60,6 +60,7 @@ $wgExtensionCredits['parserhook'][] = array(
 # Hook when viewing article header:
 $wgHooks['ArticleViewHeader'][] = 'fnBreadCrumbsShowHook';
 $wgHooks['GetPreferences'][] = 'fnBreadCrumbsAddPreferences';
+$wgHooks['UserSaveOptions'][] = 'fnFlushCrumbs';
 
 # Infrastructure
 # Load the file containing the hook functions:

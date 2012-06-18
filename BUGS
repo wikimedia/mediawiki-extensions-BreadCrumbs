@@ -1,6 +1,5 @@
 Known bugs:
 
-06-14-12
+06-18-12
 
-* Doesn't update user preferences until first page uncached by BreadCrumbs is loaded.
-* 
+* User cannot set one Breadcrumb (hacked for now)
