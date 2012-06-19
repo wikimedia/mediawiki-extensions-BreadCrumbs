@@ -63,7 +63,6 @@ function fnBreadCrumbsShowHook(&$article) {
 	
 	# Build the breadcrumbs trail:
 	#TODO: Fix edge case so Users can select 1 breadcrumb and it shows only the latest page
-	$breadcrumbs = htmlspecialchars($wluOptions['breadcrumbs-preceding-text']) . ' ';
 	$max = min(array($wluOptions['breadcrumbs-numberofcrumbs'], count($m_BreadCrumbs)));
 	for ($i = 1; $i <= $max; $i++) {
 		$j = count($m_BreadCrumbs) - $i;
@@ -77,6 +76,7 @@ function fnBreadCrumbsShowHook(&$article) {
 			$breadcrumbs = ' ' . htmlspecialchars($wluOptions['breadcrumbs-delimiter']) . ' ' . $breadcrumbs;
 		}
 	}
+	$breadcrumbs = htmlspecialchars($wluOptions['breadcrumbs-preceding-text']) . ' ' . $breadcrumbs;
 
 	# Set up camp according to the user's choice
 	switch($wluOptions['breadcrumbs-location']){
@@ -109,16 +109,6 @@ function fnBreadCrumbsShowHook(&$article) {
 	# This makes this a risky extension to run on a wiki which relies heavily on caching.
 
 	# Return true to let the rest work:
-	return true;
-}
-
-function fnFlushCrumbs () {
-	#If we just changed our settings, let's be certain to cut our breadcrumbs down to size!
-	/*if(isset($_SESSION['BreadCrumbs'])){
-		$_SESSION['BreadCrumbs'] = array_slice($_SESSION['BreadCrumbs'], 
-			(1 - $wluOptions['breadcrumbs-numberofcrumbs']));
-	}*/
-	#TODO: We could store Breadcrumb histories in the DB... Think about it!
 	return true;
 }
 
@@ -157,7 +147,7 @@ function fnBreadCrumbsAddPreferences( $user, $defaultPreferences ) {
 
 	$defaultPreferences['breadcrumbs-numberofcrumbs'] = array(
 		'type' => 'int',
-		'min' => 2,
+		'min' => 1,
 		'max' => 20,
 		'section' => 'rendering/breadcrumbs',
 		'label-message' => 'prefs-breadcrumbs-numberofcrumbs',
