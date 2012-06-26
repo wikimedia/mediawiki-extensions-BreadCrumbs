@@ -36,7 +36,7 @@ $messages['af'] = array(
 	'breadcrumbs-desc' => 'Voeg \'n spoor van broodkrummels onder die "tab bar" by',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  */
 $messages['be-tarask'] = array(
@@ -47,7 +47,7 @@ $messages['be-tarask'] = array(
 	'prefs-breadcrumbs-numberofcrumbs-max' => 'Ня болей 20 пунктаў',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  * @author Y-M D
  */
@@ -59,7 +59,7 @@ $messages['br'] = array(
 	'prefs-breadcrumbs-numberofcrumbs-max' => "D'ar muiañ 20 liamm merdeiñ",
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  */
 $messages['bs'] = array(
@@ -74,14 +74,19 @@ $messages['bs'] = array(
  * @author Kghbln
  */
 $messages['de'] = array(
-	'breadcrumbs-desc' => 'Fügt eine Brotkrümelnavigation unterhalb der Reiterleiste hinzu',
-	'prefs-breadcrumbs' => '„Brotkrümel“',
-	'prefs-breadcrumbs-showcrumbs' => '„Brotkrümel“ anzeigen',
-	'prefs-breadcrumbs-numberofcrumbs' => 'Anzahl der „Brotkrümel“',
-	'prefs-breadcrumbs-numberofcrumbs-max' => 'Maximal 20 „Brotkrümel“',
+	'breadcrumbs-desc' => 'Ermöglicht die Anzeige des Navigationsweges des Benutzers durch das Wiki',
+	'prefs-breadcrumbs-separator' => 'Trennzeichen zwischen den einzelnen Navigationselementen',
+	'prefs-breadcrumbs' => 'Navigationsweg',
+	'prefs-breadcrumbs-showcrumbs' => 'Navigationsweg anzeigen',
+	'prefs-breadcrumbs-numberofcrumbs' => 'Anzahl der Navigationselemente',
+	'prefs-breadcrumbs-numberofcrumbs-max' => 'Maximal 20 Navigationselemente',
+	'prefs-breadcrumbs-location' => 'Der Ort, an dem der Navigationsweg angezeigt werden soll',
+	'prefs-breadcrumbs-namespaces' => 'Den Namensraum der aufgesuchten Seiten mit anzeigen',
+	'prefs-breadcrumbs-filter-duplicates' => 'Bereits aufgesuchte Seiten nicht erneute anzeigen',
+	'prefs-breadcrumbs-preceding-text' => 'Der vor dem Navigationspfad anzuzeigende Text',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -92,7 +97,7 @@ $messages['dsb'] = array(
 	'prefs-breadcrumbs-numberofcrumbs-max' => 'Maksimalnje 20 srjodkow',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Crazymadlover
  * @author Translationista
  */
@@ -104,7 +109,7 @@ $messages['es'] = array(
 	'prefs-breadcrumbs-numberofcrumbs-max' => 'Máximo, 20 vínculos de recorrido de navegación',
 );
 
-/** French (Français)
+/** French (français)
  * @author Peter17
  */
 $messages['fr'] = array(
@@ -115,17 +120,18 @@ $messages['fr'] = array(
 	'prefs-breadcrumbs-numberofcrumbs-max' => 'Maximum 20 liens de navigation',
 );
 
-/** Franco-Provençal (Arpetan)
+/** Franco-Provençal (arpetan)
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
+	'breadcrumbs-desc' => 'Montre lo lim de les dèrriéres pâges que l’usanciér at visitâs dens lo vouiqui',
 	'prefs-breadcrumbs' => '« Chaplons de pan »',
 	'prefs-breadcrumbs-showcrumbs' => 'Fâre vêre los « chaplons de pan »',
 	'prefs-breadcrumbs-numberofcrumbs' => 'Nombro de « chaplons de pan »',
 	'prefs-breadcrumbs-numberofcrumbs-max' => 'U més 20 « chaplons de pan »',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -158,7 +164,7 @@ $messages['he'] = array(
 	'prefs-breadcrumbs-numberofcrumbs-max' => '20 פירורי לחם לכל היותר',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
@@ -169,17 +175,18 @@ $messages['hsb'] = array(
 	'prefs-breadcrumbs-numberofcrumbs-max' => 'Maksimalnje 20 srjódkow',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Dani
  */
 $messages['hu'] = array(
+	'breadcrumbs-desc' => 'Megjeleníti a felhasználó által a wikiben bejárt utat',
 	'prefs-breadcrumbs' => 'Bread Crumbs',
 	'prefs-breadcrumbs-showcrumbs' => 'Bread crumb megjelenítése',
 	'prefs-breadcrumbs-numberofcrumbs' => 'Bread crumbok száma',
 	'prefs-breadcrumbs-numberofcrumbs-max' => 'Maximum 20 bread crumb',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -223,7 +230,7 @@ $messages['lb'] = array(
 	'prefs-breadcrumbs-numberofcrumbs-max' => 'Maximal 20 Navigatiounslinken',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -245,7 +252,7 @@ $messages['nl'] = array(
 	'prefs-breadcrumbs-numberofcrumbs-max' => "Maximaal 20 weergegeven pagina's",
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+/** Norwegian (bokmål)‬ (‪norsk (bokmål)‬)
  * @author Nghtwlkr
  */
 $messages['no'] = array(
@@ -256,7 +263,7 @@ $messages['no'] = array(
 	'prefs-breadcrumbs-numberofcrumbs-max' => 'Maks 20 brødsmuler',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Sp5uhe
  */
 $messages['pl'] = array(
@@ -279,7 +286,7 @@ $messages['pms'] = array(
 	'prefs-breadcrumbs-numberofcrumbs-max' => 'Al pi 20 ampovrà',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author Hamilton Abreu
  */
 $messages['pt'] = array(
@@ -290,7 +297,7 @@ $messages['pt'] = array(
 	'prefs-breadcrumbs-numberofcrumbs-max' => 'No máximo 20 passos',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author Giro720
  */
 $messages['pt-br'] = array(
@@ -301,7 +308,7 @@ $messages['pt-br'] = array(
 	'prefs-breadcrumbs-numberofcrumbs-max' => 'No máximo 20 passos',
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(
@@ -322,3 +329,4 @@ $messages['tl'] = array(
 	'prefs-breadcrumbs-numberofcrumbs' => 'Bilang ng mga pispis ng tinapay',
 	'prefs-breadcrumbs-numberofcrumbs-max' => 'Pinakamaraming 20 mga himulmol ng tinapay',
 );
+
