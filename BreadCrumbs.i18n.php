@@ -22,20 +22,11 @@ $messages['en'] = array(
 );
 
 /** Message documentation (Message documentation)
- * @author Kghbln
  * @author Purodha
  * @author The Evil IP address
  */
 $messages['qqq'] = array(
 	'breadcrumbs-desc' => '{{desc}}',
-	'prefs-breadcrumbs-separator' => 'This is a user preference option (text field) appearing on [[Special:Preferences#mw-prefsection-rendering|Special:Preferences / Appearance]]. The user may enter the separator to be used between the breadcrumbs.',
-	'prefs-breadcrumbs' => 'This is the section header on [[Special:Preferences#mw-prefsection-rendering|Special:Preferences / Appearance]] containing the user preference options for this extension.',
-	'prefs-breadcrumbs-showcrumbs' => 'This is a user preference option (check box) appearing on [[Special:Preferences#mw-prefsection-rendering|Special:Preferences / Appearance]]. The user may choose whether to use breadcrumbs or not.',
-	'prefs-breadcrumbs-numberofcrumbs' => 'This is a user preference option (text field) appearing on [[Special:Preferences#mw-prefsection-rendering|Special:Preferences / Appearance]]. The user may enter the number of breadcrumbs to show in the breadcrumbs trail.',
-	'prefs-breadcrumbs-numberofcrumbs-max' => 'This is an information message appearing on [[Special:Preferences#mw-prefsection-rendering|Special:Preferences / Appearance]], explaining which values may be entered for the related user preference option.',
-	'prefs-breadcrumbs-namespaces' => 'This is a user preference option (check box) appearing on [[Special:Preferences#mw-prefsection-rendering|Special:Preferences / Appearance]]. The user may choose whether the namespace of the pages within the breadcrumbs trail should be shown or not.',
-	'prefs-breadcrumbs-filter-duplicates' => 'This is a user preference option (check box) appearing on [[Special:Preferences#mw-prefsection-rendering|Special:Preferences / Appearance]]. The user may choose whether repeatedly-visited pages should be shown in the breadcrumbs trail or not.',
-	'prefs-breadcrumbs-preceding-text' => 'This is a user preference option (text field) appearing on [[Special:Preferences#mw-prefsection-rendering|Special:Preferences / Appearance]]. The user may enter a text that should be printed in front of the breadcrumbs trail.',
 );
 
 /** Afrikaans (Afrikaans)
@@ -47,19 +38,13 @@ $messages['af'] = array(
 
 /** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
- * @author Wizardist
  */
 $messages['be-tarask'] = array(
 	'breadcrumbs-desc' => 'Дадае навігацыйны шлях («хлебныя крошкі») пад панэль закладак',
-	'prefs-breadcrumbs-separator' => 'Разьдзяляльнік хлебных крошак',
 	'prefs-breadcrumbs' => 'Навігацыйны шлях',
 	'prefs-breadcrumbs-showcrumbs' => 'Паказваць навігацыйны шлях',
 	'prefs-breadcrumbs-numberofcrumbs' => 'Даўжыня навігацыйнага шляху',
 	'prefs-breadcrumbs-numberofcrumbs-max' => 'Ня болей 20 пунктаў',
-	'prefs-breadcrumbs-location' => 'Месцазнаходжаньне хлебных крошак',
-	'prefs-breadcrumbs-namespaces' => 'Дадаваць прасторы назваў у навігацыйны шлях',
-	'prefs-breadcrumbs-filter-duplicates' => 'Адфільтроўваць часта наведвальныя старонкі',
-	'prefs-breadcrumbs-preceding-text' => 'Тэкст перад навігацыйным шляхам',
 );
 
 /** Breton (brezhoneg)
@@ -95,10 +80,10 @@ $messages['de'] = array(
 	'prefs-breadcrumbs-showcrumbs' => 'Navigationsweg anzeigen',
 	'prefs-breadcrumbs-numberofcrumbs' => 'Anzahl der Navigationselemente',
 	'prefs-breadcrumbs-numberofcrumbs-max' => 'Maximal 20 Navigationselemente',
-	'prefs-breadcrumbs-location' => 'Ort, an dem der Navigationsweg angezeigt werden soll',
-	'prefs-breadcrumbs-namespaces' => 'Namensraum der aufgesuchten Seiten anzeigen',
-	'prefs-breadcrumbs-filter-duplicates' => 'Bereits aufgesuchte Seiten nicht erneut anzeigen',
-	'prefs-breadcrumbs-preceding-text' => 'Vor dem Navigationsweg anzuzeigender Text',
+	'prefs-breadcrumbs-location' => 'Der Ort, an dem der Navigationsweg angezeigt werden soll',
+	'prefs-breadcrumbs-namespaces' => 'Den Namensraum der aufgesuchten Seiten mit anzeigen',
+	'prefs-breadcrumbs-filter-duplicates' => 'Bereits aufgesuchte Seiten nicht erneute anzeigen',
+	'prefs-breadcrumbs-preceding-text' => 'Der vor dem Navigationspfad anzuzeigende Text',
 );
 
 /** Lower Sorbian (dolnoserbski)
@@ -184,15 +169,10 @@ $messages['he'] = array(
  */
 $messages['hsb'] = array(
 	'breadcrumbs-desc' => 'Přidawa slěd srjódkow pod rajtarkowej lajstu',
-	'prefs-breadcrumbs-separator' => 'Dźělatko',
 	'prefs-breadcrumbs' => 'Srjódki',
 	'prefs-breadcrumbs-showcrumbs' => 'Srjódki zwobraznić',
 	'prefs-breadcrumbs-numberofcrumbs' => 'Ličba srjódkow',
 	'prefs-breadcrumbs-numberofcrumbs-max' => 'Maksimalnje 20 srjódkow',
-	'prefs-breadcrumbs-location' => 'Městno',
-	'prefs-breadcrumbs-namespaces' => 'Mjenowe rumy zajimać',
-	'prefs-breadcrumbs-filter-duplicates' => 'Wospjet wopytane strony wufiltrować',
-	'prefs-breadcrumbs-preceding-text' => 'Tekst, kotrež ma so před zapiskami pokazać',
 );
 
 /** Hungarian (magyar)
@@ -255,15 +235,10 @@ $messages['lb'] = array(
  */
 $messages['mk'] = array(
 	'breadcrumbs-desc' => 'Додава траги од трошки под лентата со јазичиња',
-	'prefs-breadcrumbs-separator' => 'Одделувач на навигациската патека',
 	'prefs-breadcrumbs' => 'Трошки',
 	'prefs-breadcrumbs-showcrumbs' => 'Прикажувај трошки',
 	'prefs-breadcrumbs-numberofcrumbs' => 'Број на трошки',
 	'prefs-breadcrumbs-numberofcrumbs-max' => 'Највеќе до 20 трошки',
-	'prefs-breadcrumbs-location' => 'Место на навигациската патека',
-	'prefs-breadcrumbs-namespaces' => 'Вклучи именски простори во Навигациски патеки',
-	'prefs-breadcrumbs-filter-duplicates' => 'Филтрирање (изземање) на често посетувани страници',
-	'prefs-breadcrumbs-preceding-text' => 'Текст што ќе стои пред Навигациската патека',
 );
 
 /** Dutch (Nederlands)
@@ -354,4 +329,3 @@ $messages['tl'] = array(
 	'prefs-breadcrumbs-numberofcrumbs' => 'Bilang ng mga pispis ng tinapay',
 	'prefs-breadcrumbs-numberofcrumbs-max' => 'Pinakamaraming 20 mga himulmol ng tinapay',
 );
-

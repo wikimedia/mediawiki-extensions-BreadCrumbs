@@ -21,20 +21,17 @@ PARAMETERS/APPEARANCE
 To customize the design of the breadcrumb trail, there are several user-
 accessible options (default values given):
 
-    # $wgBreadCrumbsDelimiter - set the delimiter
-    $wgDefaultUserOptions['breadcrumbs-delimiter'] = '->';
-
-    # $wgBreadCrumbsCount - number of breadcrumbs to use
-    $wgDefaultUserOptions['breadcrumbs-numberofcrumbs'] = 5;
-
     # Whether to provide breadcrumbs to users by default
     $wgDefaultUserOptions['breadcrumbs-showcrumbs'] = true;
 
-    # Whether to show the breadcrumbs' namesoaces
-    $wgDefaultUserOptions['breadcrumbs-namespaces'] = true;
+    # Delimiter string between BreadCrumbs
+    $wgDefaultUserOptions['breadcrumbs-delimiter'] = '>';
 
-    # Where to put the Breadcrumbs
-    $wgDefaultUserOptions['breadcrumbs-location'] = 3; #Before Article
+    # Number of breadcrumbs to show
+    $wgDefaultUserOptions['breadcrumbs-numberofcrumbs'] = 5;
+
+    # Whether to show the breadcrumbs' namespaces
+    $wgDefaultUserOptions['breadcrumbs-namespaces'] = true;
 
     # Whether to ignore pages that are already in breadcrumbs
     $wgDefaultUserOptions['breadcrumbs-filter-duplicates'] = false;
@@ -45,10 +42,13 @@ accessible options (default values given):
 Additionally, there are some configurations available to administrators
 
     # Whether to ignore page refreshes
-    $wgDefaultUserOptions['breadcrumbs-ignore-refreshes'] = true;
+    $wgBreadCrumbsIgnoreRefreshes = true;
 
-    # Whether to provide the links also for anonymous users:
+    # Whether to provide the links also for anonymous users
     $wgBreadCrumbsShowAnons = false;
+    
+    # Whether users should be allowed to configure BreadCrumbs Options
+    $wgBreadCrumbsAllowUPOs = true;
 
 Any of these may be overridden in LocalSettings.php.
 
@@ -69,5 +69,5 @@ ATTRIBUTION
 --------------------------------------------------------------------------
 
 This software was originally written by Manuel Schneider. It was modified 
-by Tony Boyles to add functionality for a project by
+(and is maintained) by Tony Boyles to add functionality for a project by
 [Milcord llc.](http://milcord.com)
