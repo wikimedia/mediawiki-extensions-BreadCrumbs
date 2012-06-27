@@ -63,6 +63,7 @@ function fnBreadCrumbsShowHook(&$article) {
 	
 	# Build the breadcrumbs trail:
 	#TODO: Fix edge case so Users can select 1 breadcrumb and it shows only the latest page
+	$breadcrumbs = '';
 	$max = min(array($wluOptions['breadcrumbs-numberofcrumbs'], count($m_BreadCrumbs)));
 	for ($i = 1; $i <= $max; $i++) {
 		$j = count($m_BreadCrumbs) - $i;
