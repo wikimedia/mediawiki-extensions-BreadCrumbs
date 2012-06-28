@@ -20,7 +20,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 $wgDefaultUserOptions['breadcrumbs-showcrumbs'] = true;
 
 # Whether to provide the links also for anonymous users:
-$wgBreadCrumbsShowAnons = false;
+$wgBreadCrumbsShowAnons = true;
 
 # $wgBreadCrumbsAllowUPOs - Should users be allowed to configure BreadCrumbs Options?
 $wgBreadCrumbsAllowUPOs = true;

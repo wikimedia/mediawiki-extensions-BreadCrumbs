@@ -122,6 +122,8 @@ function fnBreadCrumbsAddPreferences( $user, $defaultPreferences ) {
 			'min' => 1,
 			'max' => 20,
 			'section' => 'rendering/breadcrumbs',
+			'size' => 2,
+            'maxlength'=> 2,
 			'label-message' => 'prefs-breadcrumbs-numberofcrumbs',
 			'help' => wfMsgHtml( 'prefs-breadcrumbs-numberofcrumbs-max' ),
 		);
