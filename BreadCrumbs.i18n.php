@@ -158,10 +158,15 @@ $messages['frp'] = array(
  */
 $messages['gl'] = array(
 	'breadcrumbs-desc' => 'Engade un conxunto de ligazóns de navegación baixo a barra de lapelas',
-	'prefs-breadcrumbs' => 'Barra de navegación',
-	'prefs-breadcrumbs-showcrumbs' => 'Mostrar a barra de navegación',
+	'prefs-breadcrumbs-separator' => 'Separador das ligazóns de navegación',
+	'prefs-breadcrumbs' => 'Ligazóns de navegación',
+	'prefs-breadcrumbs-showcrumbs' => 'Mostrar as ligazóns de navegación',
 	'prefs-breadcrumbs-numberofcrumbs' => 'Número de ligazóns de navegación',
 	'prefs-breadcrumbs-numberofcrumbs-max' => 'Un máximo de 20 ligazóns de navegación',
+	'prefs-breadcrumbs-location' => 'Localización das ligazóns de navegación',
+	'prefs-breadcrumbs-namespaces' => 'Incluír os espazos de nomes nas ligazóns de navegación',
+	'prefs-breadcrumbs-filter-duplicates' => 'Excluír as páxinas visitadas a miúdo',
+	'prefs-breadcrumbs-preceding-text' => 'Texto a mostrar antes das ligazóns de navegación',
 );
 
 /** Swiss German (Alemannisch)
@@ -217,11 +222,16 @@ $messages['hu'] = array(
  * @author McDutchie
  */
 $messages['ia'] = array(
-	'breadcrumbs-desc' => 'Adde un tracia de "micas de pan" sub le barra de schedas',
-	'prefs-breadcrumbs' => 'Micas de pan',
-	'prefs-breadcrumbs-showcrumbs' => 'Monstrar micas de pan',
-	'prefs-breadcrumbs-numberofcrumbs' => 'Numero de micas de pan',
-	'prefs-breadcrumbs-numberofcrumbs-max' => 'Al plus 20 micas de pan',
+	'breadcrumbs-desc' => 'Adde un tracia de paginas visitate sub le barra de schedas',
+	'prefs-breadcrumbs-separator' => 'Separator inter paginas visitate',
+	'prefs-breadcrumbs' => 'Paginas visitate',
+	'prefs-breadcrumbs-showcrumbs' => 'Monstrar le paginas que tu ha visitate',
+	'prefs-breadcrumbs-numberofcrumbs' => 'Numero de paginas visitate',
+	'prefs-breadcrumbs-numberofcrumbs-max' => 'Le maximo de paginas visitate es 20',
+	'prefs-breadcrumbs-location' => 'Position del paginas visitate',
+	'prefs-breadcrumbs-namespaces' => 'Includer le spatios de nomine in le paginas visitate',
+	'prefs-breadcrumbs-filter-duplicates' => 'Excluder paginas visitate repetitemente',
+	'prefs-breadcrumbs-preceding-text' => 'Texto que appare ante le paginas visitate',
 );
 
 /** Indonesian (Bahasa Indonesia)
