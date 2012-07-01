@@ -46,6 +46,42 @@ $messages['af'] = array(
 	'breadcrumbs-desc' => 'Voeg \'n spoor van broodkrummels onder die "tab bar" by',
 );
 
+/** Gheg Albanian (Gegë) */
+$messages['aln'] = array(
+	'breadcrumbs-desc' => 'Tregon shtegun e përdoruesit nëpër wiki',
+);
+
+/** Arabic (العربية) */
+$messages['ar'] = array(
+	'breadcrumbs-desc' => 'يعرض مسار المستخدمين خلال الويكي',
+);
+
+/** Egyptian Spoken Arabic (مصرى) */
+$messages['arz'] = array(
+	'breadcrumbs-desc' => 'يعرض مسار المستخدمين خلال الويكى',
+);
+
+/** Asturian (asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'breadcrumbs-desc' => 'Amuesa el percorríu del usuariu pela wiki',
+);
+
+/** Bashkir (Башҡортса)
+ * @author Assele
+ */
+$messages['ba'] = array(
+	'breadcrumbs-desc' => 'Ҡатнашыусыларҙың вики проект буйлап үткән юлын күрһәтә',
+);
+
+/** Bavarian (Boarisch)
+ * @author Man77
+ */
+$messages['bar'] = array(
+	'breadcrumbs-desc' => "Zoagt in Weg vu dem Benutza duach's Wiki.",
+);
+
 /** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Wizardist
@@ -61,6 +97,18 @@ $messages['be-tarask'] = array(
 	'prefs-breadcrumbs-namespaces' => 'Дадаваць прасторы назваў у навігацыйны шлях',
 	'prefs-breadcrumbs-filter-duplicates' => 'Адфільтроўваць часта наведвальныя старонкі',
 	'prefs-breadcrumbs-preceding-text' => 'Тэкст перад навігацыйным шляхам',
+);
+
+/** Bulgarian (български) */
+$messages['bg'] = array(
+	'breadcrumbs-desc' => 'Показва текущото място на потребителя в уикито',
+);
+
+/** Bengali (বাংলা)
+ * @author Zaheen
+ */
+$messages['bn'] = array(
+	'breadcrumbs-desc' => 'ব্যবহারকারীদেরকে উইকির ভেতর দিয়ে পথ দেখায়।',
 );
 
 /** Breton (brezhoneg)
@@ -86,20 +134,40 @@ $messages['bs'] = array(
 	'prefs-breadcrumbs-numberofcrumbs-max' => 'Najviše 20 mrvica',
 );
 
+/** Catalan (català) */
+$messages['ca'] = array(
+	'breadcrumbs-desc' => 'Mostra el recorregut dels usuaris a través de la wiki',
+);
+
+/** Czech (česky) */
+$messages['cs'] = array(
+	'breadcrumbs-desc' => 'Zobrazí cestu uživatele ve wiki',
+);
+
+/** Welsh (Cymraeg) */
+$messages['cy'] = array(
+	'breadcrumbs-desc' => 'Yn dangos llwybr y defnyddiwr ar hyd y wici',
+);
+
+/** Danish (dansk) */
+$messages['da'] = array(
+	'breadcrumbs-desc' => 'Viser brugerstien på wikien',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  */
 $messages['de'] = array(
 	'breadcrumbs-desc' => 'Ermöglicht die Anzeige des Navigationsweges des Benutzers durch das Wiki',
-	'prefs-breadcrumbs-separator' => 'Trennzeichen zwischen den einzelnen Navigationselementen',
+	'prefs-breadcrumbs-separator' => 'Trennzeichen zwischen den einzelnen Navigationselementen:',
 	'prefs-breadcrumbs' => 'Navigationsweg',
 	'prefs-breadcrumbs-showcrumbs' => 'Navigationsweg anzeigen',
-	'prefs-breadcrumbs-numberofcrumbs' => 'Anzahl der Navigationselemente',
+	'prefs-breadcrumbs-numberofcrumbs' => 'Anzahl der Navigationselemente:',
 	'prefs-breadcrumbs-numberofcrumbs-max' => 'Maximal 20 Navigationselemente',
-	'prefs-breadcrumbs-location' => 'Ort, an dem der Navigationsweg angezeigt werden soll',
+	'prefs-breadcrumbs-location' => 'Ort, an dem der Navigationsweg angezeigt werden soll:',
 	'prefs-breadcrumbs-namespaces' => 'Namensraum der aufgesuchten Seiten anzeigen',
 	'prefs-breadcrumbs-filter-duplicates' => 'Bereits aufgesuchte Seiten nicht erneut anzeigen',
-	'prefs-breadcrumbs-preceding-text' => 'Vor dem Navigationsweg anzuzeigender Text',
+	'prefs-breadcrumbs-preceding-text' => 'Vor dem Navigationsweg anzuzeigender Text:',
 );
 
 /** Lower Sorbian (dolnoserbski)
@@ -111,6 +179,16 @@ $messages['dsb'] = array(
 	'prefs-breadcrumbs-showcrumbs' => 'Srjodki zwobrazniś',
 	'prefs-breadcrumbs-numberofcrumbs' => 'Licba srjodkow',
 	'prefs-breadcrumbs-numberofcrumbs-max' => 'Maksimalnje 20 srjodkow',
+);
+
+/** Greek (Ελληνικά) */
+$messages['el'] = array(
+	'breadcrumbs-desc' => 'Υποδεικνύει ποιες σελίδες επισκέφθηκε ο εκάστοτε χρήστης σε αυτό το βίκι',
+);
+
+/** Esperanto (Esperanto) */
+$messages['eo'] = array(
+	'breadcrumbs-desc' => 'Montras la vojon de uzanto tra la vikio',
 );
 
 /** Spanish (español)
@@ -129,6 +207,25 @@ $messages['es'] = array(
 	'prefs-breadcrumbs-namespaces' => 'Incluir espacios de nombre en la ruta de navegación',
 	'prefs-breadcrumbs-filter-duplicates' => 'Filtrar las páginas visitadas repetidamente',
 	'prefs-breadcrumbs-preceding-text' => 'Texto que aparece antes de la Guía de navegación',
+);
+
+/** Basque (euskara) */
+$messages['eu'] = array(
+	'breadcrumbs-desc' => 'Wikian zeharreko erabiltzaileen ibilbidea erakusten du',
+);
+
+/** Persian (فارسی)
+ * @author Ebraminio
+ */
+$messages['fa'] = array(
+	'breadcrumbs-desc' => 'مسیر کاربران در ویکی نمایش می‌دهد',
+);
+
+/** Finnish (suomi)
+ * @author Nike
+ */
+$messages['fi'] = array(
+	'breadcrumbs-desc' => 'Näyttää wikissä kuljetun reitin.',
 );
 
 /** French (français)
@@ -153,6 +250,11 @@ $messages['frp'] = array(
 	'prefs-breadcrumbs-numberofcrumbs-max' => 'U més 20 « chaplons de pan »',
 );
 
+/** Western Frisian (Frysk) */
+$messages['fy'] = array(
+	'breadcrumbs-desc' => 'Lit it paad sjen dat meidoggers yn de wiki berinne',
+);
+
 /** Galician (galego)
  * @author Toliño
  */
@@ -169,6 +271,11 @@ $messages['gl'] = array(
 	'prefs-breadcrumbs-preceding-text' => 'Texto a mostrar antes das ligazóns de navegación',
 );
 
+/** Ancient Greek (Ἀρχαία ἑλληνικὴ) */
+$messages['grc'] = array(
+	'breadcrumbs-desc' => 'Δεικνύει τὴν ἀτραπὸν ἑκάστου τοῦ χρωμένου',
+);
+
 /** Swiss German (Alemannisch)
  * @author Als-Holder
  */
@@ -180,6 +287,11 @@ $messages['gsw'] = array(
 	'prefs-breadcrumbs-numberofcrumbs-max' => 'Maximal 20 „Brogmoseme“',
 );
 
+/** Manx (Gaelg) */
+$messages['gv'] = array(
+	'breadcrumbs-desc' => 'Taishbyney cassan ny h-ymmydeyryn trooid y wiki',
+);
+
 /** Hebrew (עברית)
  * @author Amire80
  */
@@ -189,6 +301,23 @@ $messages['he'] = array(
 	'prefs-breadcrumbs-showcrumbs' => 'להציג פירורי לחם',
 	'prefs-breadcrumbs-numberofcrumbs' => 'מספר פירורי הלחם',
 	'prefs-breadcrumbs-numberofcrumbs-max' => '20 פירורי לחם לכל היותר',
+);
+
+/** Hindi (हिन्दी)
+ * @author Kaustubh
+ */
+$messages['hi'] = array(
+	'breadcrumbs-desc' => 'विकिमें सदस्यका पाथ दर्शाता हैं।',
+);
+
+/** Hiligaynon (Ilonggo) */
+$messages['hil'] = array(
+	'breadcrumbs-desc' => 'Ginapakita ang alagyan sang mga user pa-agi sa wiki',
+);
+
+/** Croatian (hrvatski) */
+$messages['hr'] = array(
+	'breadcrumbs-desc' => 'Pokazuje put suradnika kroz wiki',
 );
 
 /** Upper Sorbian (hornjoserbsce)
@@ -245,6 +374,25 @@ $messages['id'] = array(
 	'prefs-breadcrumbs-numberofcrumbs-max' => 'Maksimum 20 remah roti',
 );
 
+/** Igbo (Igbo)
+ * @author Ukabia
+ */
+$messages['ig'] = array(
+	'breadcrumbs-desc' => "Zí uzọr ọ'bànifé nke na gáfè wiki",
+);
+
+/** Icelandic (íslenska)
+ * @author S.Örvarr.S
+ */
+$messages['is'] = array(
+	'breadcrumbs-desc' => 'Sýnir flakk notenda á wiki-síðunni',
+);
+
+/** Italian (italiano) */
+$messages['it'] = array(
+	'breadcrumbs-desc' => 'Mostra gli utenti il percorso attraverso la wiki',
+);
+
 /** Japanese (日本語)
  * @author Shirayuki
  * @author 青子守歌
@@ -262,6 +410,49 @@ $messages['ja'] = array(
 	'prefs-breadcrumbs-preceding-text' => 'パンくずリストの前に表示する文字列',
 );
 
+/** Jamaican Creole English (Patois)
+ * @author Yocahuna
+ */
+$messages['jam'] = array(
+	'breadcrumbs-desc' => 'Shuo di yuuza paat chruu di wiki',
+);
+
+/** Javanese (Basa Jawa) */
+$messages['jv'] = array(
+	'breadcrumbs-desc' => 'Nuduhaké para panganggo dalan ngliwati wiki',
+);
+
+/** Khmer (ភាសាខ្មែរ)
+ * @author Thearith
+ */
+$messages['km'] = array(
+	'breadcrumbs-desc' => 'បង្ហាញ​ផ្លូវ​របស់​អ្នកប្រើប្រាស់​នានា​តាមរយៈ​វិគី​។',
+);
+
+/** Kannada (ಕನ್ನಡ) */
+$messages['kn'] = array(
+	'breadcrumbs-desc' => 'ವಿಕಿಯಲ್ಲಿ ಸದಸ್ಯರ ಪಥವನ್ನು ತೋರಿಸುತ್ತದೆ',
+);
+
+/** Korean (한국어)
+ * @author Klutzy
+ */
+$messages['ko'] = array(
+	'breadcrumbs-desc' => '사용자의 최근 방문 문서 목록을 표시하는 기능',
+);
+
+/** Colognian (Ripoarisch) */
+$messages['ksh'] = array(
+	'breadcrumbs-desc' => 'Zeijsch dem Lesser odder Medmaacher der Wääsch dorj_et Wikki, dänn hä jekumme es, op jede Sigg',
+);
+
+/** Cornish (kernowek)
+ * @author Nrowe
+ */
+$messages['kw'] = array(
+	'breadcrumbs-desc' => 'Y hwra diskwedhes fordh an devnydhyer dres an wiki',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
@@ -271,6 +462,32 @@ $messages['lb'] = array(
 	'prefs-breadcrumbs-showcrumbs' => 'Navigatiounslinken (bread crumbs) weisen',
 	'prefs-breadcrumbs-numberofcrumbs' => 'Zuel vun den Navigatiounslinken (bread crumbs)',
 	'prefs-breadcrumbs-numberofcrumbs-max' => 'Maximal 20 Navigatiounslinken',
+);
+
+/** Limburgish (Limburgs) */
+$messages['li'] = array(
+	'breadcrumbs-desc' => 'Tuuntj gebroekerspaad dore wiki',
+);
+
+/** Lithuanian (lietuvių)
+ * @author Garas
+ */
+$messages['lt'] = array(
+	'breadcrumbs-desc' => 'Rodo naudotojo kelią svetainėje',
+);
+
+/** Latvian (latviešu)
+ * @author Xil
+ */
+$messages['lv'] = array(
+	'breadcrumbs-desc' => 'Parād lietotāja ceļu cauri wiki',
+);
+
+/** Malagasy (Malagasy)
+ * @author Jagwar
+ */
+$messages['mg'] = array(
+	'breadcrumbs-desc' => "Mampiseho ny rohy ny pejy notsidian'ny mpikambana teto ambon'ity wiki ity.",
 );
 
 /** Macedonian (македонски)
@@ -289,6 +506,42 @@ $messages['mk'] = array(
 	'prefs-breadcrumbs-preceding-text' => 'Текст што ќе стои пред Навигациската патека',
 );
 
+/** Marathi (मराठी) */
+$messages['mr'] = array(
+	'breadcrumbs-desc' => 'विकिमधील सदस्याचा मार्ग (पाथ) दर्शविते',
+);
+
+/** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
+ */
+$messages['ms'] = array(
+	'breadcrumbs-desc' => 'Menunjukkan laluan melalui wiki kepada pengguna',
+);
+
+/** Nahuatl (Nāhuatl) */
+$messages['nah'] = array(
+	'breadcrumbs-desc' => 'Tiquinttāz tlatequitiltilīlli in īoh huiquitoca',
+);
+
+/** Low German (Plattdüütsch) */
+$messages['nds'] = array(
+	'breadcrumbs-desc' => 'Wiest den Padd vun’n Bruker dör dat Wiki',
+);
+
+/** Nedersaksisch (Nedersaksisch)
+ * @author Servien
+ */
+$messages['nds-nl'] = array(
+	'breadcrumbs-desc' => 'Geef t pad weer dat gebruker in de wiki deurlopen.',
+);
+
+/** Nepali (नेपाली)
+ * @author सरोज कुमार ढकाल
+ */
+$messages['ne'] = array(
+	'breadcrumbs-desc' => 'विकिबाट प्रयोगकर्ताहरुको बाटो (Path)  देखाउछ',
+);
+
 /** Dutch (Nederlands)
  * @author Siebrand
  */
@@ -305,6 +558,11 @@ $messages['nl'] = array(
 	'prefs-breadcrumbs-preceding-text' => 'Weer te geven tekst voor navigatiegeschiedenis',
 );
 
+/** Norwegian Nynorsk (‪norsk (nynorsk)‬) */
+$messages['nn'] = array(
+	'breadcrumbs-desc' => 'Viser stigen til brukaren gjennom wikien',
+);
+
 /** Norwegian (bokmål)‬ (‪norsk (bokmål)‬)
  * @author Nghtwlkr
  */
@@ -314,6 +572,30 @@ $messages['no'] = array(
 	'prefs-breadcrumbs-showcrumbs' => 'Vis brødsmuler',
 	'prefs-breadcrumbs-numberofcrumbs' => 'Antall brødsmuler',
 	'prefs-breadcrumbs-numberofcrumbs-max' => 'Maks 20 brødsmuler',
+);
+
+/** Occitan (occitan) */
+$messages['oc'] = array(
+	'breadcrumbs-desc' => 'Aficha lo ligam de las darrièras paginas que l’utilizaire a visitadas dins lo wiki',
+);
+
+/** Oriya (ଓଡ଼ିଆ)
+ * @author Ansumang
+ */
+$messages['or'] = array(
+	'breadcrumbs-desc' => 'ଉଇକି ମାଧ୍ୟମରେ ବ୍ୟବହାରକାରୀଙ୍କ ମାର୍ଗ ଦେଖାଏ',
+);
+
+/** Papiamento (Papiamentu)
+ * @author Sdm1985
+ */
+$messages['pap'] = array(
+	'breadcrumbs-desc' => 'Esaki ta mustra usuarionan e kon e wiki ta hinká den otro',
+);
+
+/** Plautdietsch (Plautdietsch) */
+$messages['pdt'] = array(
+	'breadcrumbs-desc' => 'Wiest dem Wajch vom Brucka derch daut Wiki',
 );
 
 /** Polish (polski)
@@ -361,6 +643,21 @@ $messages['pt-br'] = array(
 	'prefs-breadcrumbs-numberofcrumbs-max' => 'No máximo 20 passos',
 );
 
+/** Tarifit (Tarifit) */
+$messages['rif'] = array(
+	'breadcrumbs-desc' => 'Isskan-d tabridt n usqdac di wiki',
+);
+
+/** Romanian (română) */
+$messages['ro'] = array(
+	'breadcrumbs-desc' => 'Arată calea utilizatorilor prin wiki',
+);
+
+/** tarandíne (tarandíne) */
+$messages['roa-tara'] = array(
+	'breadcrumbs-desc' => 'Fà vedè le percorse de le utinde attraverse le Uicchipèdie',
+);
+
 /** Russian (русский)
  * @author Александр Сигачёв
  */
@@ -372,6 +669,98 @@ $messages['ru'] = array(
 	'prefs-breadcrumbs-numberofcrumbs-max' => 'Не более 20 «хлебных крошек»',
 );
 
+/** Sakha (саха тыла) */
+$messages['sah'] = array(
+	'breadcrumbs-desc' => 'Кыттааччылар биики устун хамсыылларын көрдөрөр',
+);
+
+/** Tachelhit (Tašlḥiyt/ⵜⴰⵛⵍⵃⵉⵜ)
+ * @author Dalinanir
+ */
+$messages['shi'] = array(
+	'breadcrumbs-desc' => 'Ar immala aɣaras imsxdamn ɣ wiki',
+);
+
+/** Slovak (slovenčina) */
+$messages['sk'] = array(
+	'breadcrumbs-desc' => 'Zobrazí cestu používateľa vo wiki',
+);
+
+/** Slovenian (slovenščina)
+ * @author Dbc334
+ */
+$messages['sl'] = array(
+	'breadcrumbs-desc' => 'Prikaže uporabnikovo pot skozi wiki',
+);
+
+/** Albanian (shqip) */
+$messages['sq'] = array(
+	'breadcrumbs-desc' => 'Tregon rrugën e përdoruesit nëpër wiki',
+);
+
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬) */
+$messages['sr-ec'] = array(
+	'breadcrumbs-desc' => 'Показује путање корисника кроз Вики',
+);
+
+/** Serbian (Latin script) (‪srpski (latinica)‬) */
+$messages['sr-el'] = array(
+	'breadcrumbs-desc' => 'Pokazuje putanje korisnika kroz Viki',
+);
+
+/** Seeltersk (Seeltersk) */
+$messages['stq'] = array(
+	'breadcrumbs-desc' => 'Wiest dän Wai fon dän Benutser truch dät Wiki',
+);
+
+/** Sundanese (Basa Sunda) */
+$messages['su'] = array(
+	'breadcrumbs-desc' => 'Témbongkeun tapak pamaké sapanjang wiki',
+);
+
+/** Swedish (svenska) */
+$messages['sv'] = array(
+	'breadcrumbs-desc' => 'Visar användarens väg genom wikin',
+);
+
+/** Tamil (தமிழ்)
+ * @author TRYPPN
+ */
+$messages['ta'] = array(
+	'breadcrumbs-desc' => 'பயனர்களின் தொடர்பு வழிகளை விக்கியின் மூலம் காட்டுகிறது',
+);
+
+/** Telugu (తెలుగు)
+ * @author Veeven
+ */
+$messages['te'] = array(
+	'breadcrumbs-desc' => 'వాడుకరులకు వికీలో తోవ చూపిస్తుంది',
+);
+
+/** Tetum (tetun)
+ * @author MF-Warburg
+ */
+$messages['tet'] = array(
+	'breadcrumbs-desc' => "Hatudu dalan uza-na'in nian husi wiki.",
+);
+
+/** Tajik (Cyrillic script) (тоҷикӣ) */
+$messages['tg-cyrl'] = array(
+	'breadcrumbs-desc' => 'Роҳи корбар тариқи викиро нишон медиҳад',
+);
+
+/** Tajik (Latin script) (tojikī) */
+$messages['tg-latn'] = array(
+	'breadcrumbs-desc' => 'Rohi korbar tariqi vikiro nişon medihad',
+);
+
+/** Thai (ไทย)
+ * @author Passawuth
+ */
+$messages['th'] = array(
+	'breadcrumbs-desc' => 'แสดงหนทางในวิกิต่อผู้ใช้',
+);
+
 /** Tagalog (Tagalog)
  * @author AnakngAraw
  */
@@ -381,5 +770,58 @@ $messages['tl'] = array(
 	'prefs-breadcrumbs-showcrumbs' => 'Ipakita ang mga pispis ng tinapay',
 	'prefs-breadcrumbs-numberofcrumbs' => 'Bilang ng mga pispis ng tinapay',
 	'prefs-breadcrumbs-numberofcrumbs-max' => 'Pinakamaraming 20 mga himulmol ng tinapay',
+);
+
+/** Turkish (Türkçe)
+ * @author Vito Genovese
+ */
+$messages['tr'] = array(
+	'breadcrumbs-desc' => 'Vikide kullanıcıların konumunu gösterir',
+);
+
+/** Ukrainian (українська) */
+$messages['uk'] = array(
+	'breadcrumbs-desc' => 'Показує шлях користувачів по вікі',
+);
+
+/** vèneto (vèneto) */
+$messages['vec'] = array(
+	'breadcrumbs-desc' => 'Mostra el percorso dei utenti atraverso la wiki',
+);
+
+/** Veps (Vepsän kel’) */
+$messages['vep'] = array(
+	'breadcrumbs-desc' => 'Ozutab kävuatajiden matkad Wikidme',
+);
+
+/** Vietnamese (Tiếng Việt)
+ * @author Minh Nguyen
+ */
+$messages['vi'] = array(
+	'breadcrumbs-desc' => 'Hiển thị lối đến trang wiki',
+);
+
+/** Volapük (Volapük) */
+$messages['vo'] = array(
+	'breadcrumbs-desc' => 'Jonön gebanaluvegi da vük',
+);
+
+/** Cantonese (粵語) */
+$messages['yue'] = array(
+	'breadcrumbs-desc' => '顯示用戶響呢個wiki嘅路徑。',
+);
+
+/** Simplified Chinese (‪中文（简体）‬)
+ * @author Gaoxuewei
+ */
+$messages['zh-hans'] = array(
+	'breadcrumbs-desc' => '显示用户在这个网站的轨迹。',
+);
+
+/** Traditional Chinese (‪中文（繁體）‬)
+ * @author Gaoxuewei
+ */
+$messages['zh-hant'] = array(
+	'breadcrumbs-desc' => '顯示使用者在這個網站的軌跡。',
 );
 
