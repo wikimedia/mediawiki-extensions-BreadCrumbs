@@ -229,14 +229,20 @@ $messages['fi'] = array(
 );
 
 /** French (français)
+ * @author Gomoko
  * @author Peter17
  */
 $messages['fr'] = array(
 	'breadcrumbs-desc' => "Ajoute une suite de liens de navigation sous la barre d'onglets",
+	'prefs-breadcrumbs-separator' => "Séparateur du fil d'Ariane",
 	'prefs-breadcrumbs' => 'Barre de navigation',
 	'prefs-breadcrumbs-showcrumbs' => 'Afficher la barre de navigation',
 	'prefs-breadcrumbs-numberofcrumbs' => 'Nombre de liens de navigation',
 	'prefs-breadcrumbs-numberofcrumbs-max' => 'Maximum 20 liens de navigation',
+	'prefs-breadcrumbs-location' => "Emplacement du fil d'Ariane",
+	'prefs-breadcrumbs-namespaces' => "Inclure les espaces de noms dans les fils d'Ariane",
+	'prefs-breadcrumbs-filter-duplicates' => 'Filtrer les pages visitées à plusieurs reprises',
+	'prefs-breadcrumbs-preceding-text' => "Texte à afficher devant les fils d'Ariane",
 );
 
 /** Franco-Provençal (arpetan)
@@ -616,7 +622,7 @@ $messages['pl'] = array(
 $messages['pms'] = array(
 	'breadcrumbs-desc' => 'A gionta com na trassa ëd farin-a sota a la tichëtta dla bara',
 	'prefs-breadcrumbs' => 'Ampovrà ëd farin-a',
-	'prefs-breadcrumbs-showcrumbs' => "Visualisé l'ampovrà",
+	'prefs-breadcrumbs-showcrumbs' => "Visualisé j'ampovrà",
 	'prefs-breadcrumbs-numberofcrumbs' => "Nùmer d'ampovrà",
 	'prefs-breadcrumbs-numberofcrumbs-max' => 'Al pi 20 ampovrà',
 );
