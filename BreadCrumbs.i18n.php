@@ -447,9 +447,20 @@ $messages['ko'] = array(
 	'breadcrumbs-desc' => '사용자의 최근 방문 문서 목록을 표시하는 기능',
 );
 
-/** Colognian (Ripoarisch) */
+/** Colognian (Ripoarisch)
+ * @author Purodha
+ */
 $messages['ksh'] = array(
 	'breadcrumbs-desc' => 'Zeijsch dem Lesser odder Medmaacher der Wääsch dorj_et Wikki, dänn hä jekumme es, op jede Sigg',
+	'prefs-breadcrumbs-separator' => 'Et Zeische zwesche de Jrömmelle',
+	'prefs-breadcrumbs' => 'Bruutjrömmelle',
+	'prefs-breadcrumbs-showcrumbs' => 'Bruutjrommelle aanzeije',
+	'prefs-breadcrumbs-numberofcrumbs' => 'De Aanzahl vun Jrömelle',
+	'prefs-breadcrumbs-numberofcrumbs-max' => 'Nit mieh wi 20 Jrömmelle',
+	'prefs-breadcrumbs-location' => 'Der Plaaz för de Bruutjrömmelle',
+	'prefs-breadcrumbs-namespaces' => 'Donn de Appachtemangs en de Bruutjrömmele met aanzeije',
+	'prefs-breadcrumbs-filter-duplicates' => 'Donn Sigge bloß eijmohl zeije, ejaal, wi öff mer drop wohr',
+	'prefs-breadcrumbs-preceding-text' => 'Wat vör der Bruutjrömmelle schtonn sull',
 );
 
 /** Cornish (kernowek)
