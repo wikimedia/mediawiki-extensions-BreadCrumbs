@@ -633,7 +633,7 @@ $messages['pl'] = array(
 $messages['pms'] = array(
 	'breadcrumbs-desc' => 'A gionta com na trassa ëd farin-a sota a la tichëtta dla bara',
 	'prefs-breadcrumbs' => 'Ampovrà ëd farin-a',
-	'prefs-breadcrumbs-showcrumbs' => "Visualisé j'ampovrà",
+	'prefs-breadcrumbs-showcrumbs' => 'Visualisé la bara ëd navigassion',
 	'prefs-breadcrumbs-numberofcrumbs' => "Nùmer d'ampovrà",
 	'prefs-breadcrumbs-numberofcrumbs-max' => 'Al pi 20 ampovrà',
 );
