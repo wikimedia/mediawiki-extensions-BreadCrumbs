@@ -68,7 +68,7 @@ $messages['ast'] = array(
 	'breadcrumbs-desc' => 'Amuesa el percorríu del usuariu pela wiki',
 );
 
-/** Bashkir (Башҡортса)
+/** Bashkir (башҡортса)
  * @author Assele
  */
 $messages['ba'] = array(
@@ -540,6 +540,11 @@ $messages['nah'] = array(
 	'breadcrumbs-desc' => 'Tiquinttāz tlatequitiltilīlli in īoh huiquitoca',
 );
 
+/** Norwegian Bokmål (‪norsk (bokmål)‬) */
+$messages['nb'] = array(
+	'breadcrumbs-desc' => 'Viser brukerens sti gjennom wikien',
+);
+
 /** Low German (Plattdüütsch) */
 $messages['nds'] = array(
 	'breadcrumbs-desc' => 'Wiest den Padd vun’n Bruker dör dat Wiki',
@@ -811,7 +816,7 @@ $messages['vec'] = array(
 	'breadcrumbs-desc' => 'Mostra el percorso dei utenti atraverso la wiki',
 );
 
-/** Veps (Vepsän kel’) */
+/** Veps (vepsän kel’) */
 $messages['vep'] = array(
 	'breadcrumbs-desc' => 'Ozutab kävuatajiden matkad Wikidme',
 );
