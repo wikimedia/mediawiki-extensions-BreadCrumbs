@@ -1,12 +1,13 @@
 <?php
-/* The BreadCrumbs extension, an extension for providing an breadcrumbs
- * navigation to users.
+
+/* The BreadCrumbs extension, an extension for providing a breadcrumbs navigation
+ * to users.
  *
- * @file
- * @ingroup Extensions
+ * @file BreadCrumbsFunctions.php
+ * @ingroup BreadCrumbs
  * @author Manuel Schneider <manuel.schneider@wikimedia.ch>, Tony Boyles <ABoyles@milcord.com>
  * @copyright © 2007 by Manuel Schneider, 2012 by Tony Boyles, Milcord llc
- * @licence GNU General Public Licence 2.0 or later
+ * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  */
 
 if (!defined('MEDIAWIKI')) {
@@ -123,7 +124,7 @@ function fnBreadCrumbsAddPreferences( $user, $defaultPreferences ) {
 			'max' => 20,
 			'section' => 'rendering/breadcrumbs',
 			'size' => 2,
-            'maxlength'=> 2,
+			'maxlength'=> 2,
 			'label-message' => 'prefs-breadcrumbs-numberofcrumbs',
 			'help' => wfMsgHtml( 'prefs-breadcrumbs-numberofcrumbs-max' ),
 		);
@@ -131,15 +132,22 @@ function fnBreadCrumbsAddPreferences( $user, $defaultPreferences ) {
 		$defaultPreferences['breadcrumbs-preceding-text'] = array(
 			'type' => 'text',
 			'section' => 'rendering/breadcrumbs',
+			'size' => 34,
+                        'maxlength'=> 30,
 			'label-message' => 'prefs-breadcrumbs-preceding-text',
+			'help' => wfMsgHtml( 'prefs-breadcrumbs-preceding-text-max' ),
 		);
 		
 		$defaultPreferences['breadcrumbs-delimiter'] = array(
 			'type' => 'text',
 			'section' => 'rendering/breadcrumbs',
+			'size' => 2,
+                        'maxlength'=> 2,
 			'label-message' => 'prefs-breadcrumbs-separator',
+			'help' => wfMsgHtml( 'prefs-breadcrumbs-separator-max' ),
 		);
 	}
 	
 	return true;
 }
+

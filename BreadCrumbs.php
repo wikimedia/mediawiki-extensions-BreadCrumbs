@@ -1,18 +1,33 @@
 <?php
-/* The BreadCrumbs extension, an extension for providing an breadcrumbs
- * navigation to users.
+
+/* The BreadCrumbs extension, an extension for providing a breadcrumbs navigation
+ * to users.
  *
- * @file
+ * @link https://www.mediawiki.org/wiki/Extension:BreadCrumbs Documentation
+
+ * @file BreadCrumbs.php
  * @ingroup Extensions
+ * @defgroup BreadCrumbs
+ * @package MediaWiki
  * @author Manuel Schneider <manuel.schneider@wikimedia.ch>, Tony Boyles <ABoyles@milcord.com>
  * @copyright © 2007 by Manuel Schneider, 2012 by Tony Boyles, Milcord llc
- * @licence GNU General Public Licence 2.0 or later
+ * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  */
 
 if ( !defined( 'MEDIAWIKI' ) ) {
 	echo( "This file is an extension to the MediaWiki software and cannot be used standalone.\n" );
 	die();
 }
+
+# Register extension credits:
+$wgExtensionCredits['parserhook'][] = array(
+	'path'           => __FILE__,
+	'name'           => 'BreadCrumbs',
+	'descriptionmsg' => 'breadcrumbs-desc',
+	'version'	 => '0.3.1',
+	'author'         => array( 'Manuel Schneider', '[http://milcord.com Tony Boyles, Milcord llc]' ),
+	'url'            => 'https://www.mediawiki.org/wiki/Extension:BreadCrumbs',
+);
 
 # Default Options:
 
@@ -52,13 +67,13 @@ $wgDefaultUserOptions['breadcrumbs-preceding-text'] = '';
 # Load BreadCrumbs when viewing article header
 $wgHooks['ArticleViewHeader'][] = 'fnBreadCrumbsShowHook';
 
-# When presenting Options to Users, add BreadCrumbs configurations
+# When presenting options to users, add BreadCrumbs configurations
 $wgHooks['GetPreferences'][] = 'fnBreadCrumbsAddPreferences';
 
 
 # Infrastructure:
 
-# Register the Internationalization file
+# Register the internationalization file
 $wgExtensionMessagesFiles['Breadcrumbs'] = dirname( __FILE__ ) . '/BreadCrumbs.i18n.php';
 
 # Load the file containing the hook functions:
@@ -71,12 +86,3 @@ $wgResourceModules['ext.breadCrumbs'] = array(
 	'remoteExtPath' => 'BreadCrumbs'
 );
 
-# Register extension credits:
-$wgExtensionCredits['parserhook'][] = array(
-	'path'           => __FILE__,
-	'name'           => 'BreadCrumbs',
-	'version'		 => '0.3',
-	'author'         => array( 'Manuel Schneider', '[http://milcord.com Tony Boyles, Milcord llc]' ),
-	'url'            => 'https://www.mediawiki.org/wiki/Extension:BreadCrumbs',
-	'descriptionmsg' => 'breadcrumbs-desc',
-);

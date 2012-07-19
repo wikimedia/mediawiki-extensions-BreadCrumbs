@@ -1,24 +1,33 @@
 <?php
-/* Internationalization file for BreadCrumbs extension
+/* The BreadCrumbs extension, an extension for providing a breadcrumbs navigation
+ * to users.
+ *
+ * @file BreadCrumbs.i18n.php
+ * @ingroup BreadCrumbs
+ * @author Manuel Schneider <manuel.schneider@wikimedia.ch>, Tony Boyles <ABoyles@milcord.com>
+ * @copyright © 2007 by Manuel Schneider, 2012 by Tony Boyles, Milcord llc
+ * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  */
 
 $messages = array();
 
 /** English
- * @author Ryan Lane
  * @author AABoyles
+ * @author Kghbln
+ * @author Ryan Lane
  */
 $messages['en'] = array(
-	'breadcrumbs-desc' => 'Adds a trail of breadcrumbs to the page',
-	'prefs-breadcrumbs-separator' => 'Breadcrumb separator',
+	'breadcrumbs-desc' => 'Adds a trail of bread crumbs to the page',
+	'prefs-breadcrumbs-separator' => 'Bread crumb separator',
+	'prefs-breadcrumbs-separator-max' => 'A maximum 2 characters may be entered.',
 	'prefs-breadcrumbs' => 'Bread Crumbs',
 	'prefs-breadcrumbs-showcrumbs' => 'Display bread crumbs',
 	'prefs-breadcrumbs-numberofcrumbs' => 'Number of bread crumbs',
-	'prefs-breadcrumbs-numberofcrumbs-max' => 'Maximum 20 bread crumbs',
-	'prefs-breadcrumbs-location' => 'Breadcrumbs location',
-	'prefs-breadcrumbs-namespaces' => 'Include Namespaces in Breadcrumbs',
+	'prefs-breadcrumbs-numberofcrumbs-max' => 'A maximum 20 bread crumbs may be shown.',
+	'prefs-breadcrumbs-namespaces' => 'Include Namespaces in bread crumbs',
 	'prefs-breadcrumbs-filter-duplicates' => 'Filter out repeatedly-visited pages',
-	'prefs-breadcrumbs-preceding-text' => 'Text to appear before Breadcrumbs'
+	'prefs-breadcrumbs-preceding-text' => 'Text to appear before bread crumbs',
+	'prefs-breadcrumbs-preceding-text-max' => 'A maximum 30 characters may be entered.',
 );
 
 /** Message documentation (Message documentation)
@@ -29,14 +38,15 @@ $messages['en'] = array(
 $messages['qqq'] = array(
 	'breadcrumbs-desc' => '{{desc}}',
 	'prefs-breadcrumbs-separator' => 'This is a user preference option (text field) appearing on [[Special:Preferences#mw-prefsection-rendering|Special:Preferences / Appearance]]. The user may enter the separator to be used between the breadcrumbs.',
+	'prefs-breadcrumbs-separator-max' => 'This is an information message appearing on [[Special:Preferences#mw-prefsection-rendering|Special:Preferences / Appearance]], explaining how many characters may be entered as the separator to be used between breadcrumbs.',
 	'prefs-breadcrumbs' => 'This is the section header on [[Special:Preferences#mw-prefsection-rendering|Special:Preferences / Appearance]] containing the user preference options for this extension.',
 	'prefs-breadcrumbs-showcrumbs' => 'This is a user preference option (check box) appearing on [[Special:Preferences#mw-prefsection-rendering|Special:Preferences / Appearance]]. The user may choose whether to use breadcrumbs or not.',
 	'prefs-breadcrumbs-numberofcrumbs' => 'This is a user preference option (text field) appearing on [[Special:Preferences#mw-prefsection-rendering|Special:Preferences / Appearance]]. The user may enter the number of breadcrumbs to show in the breadcrumbs trail.',
 	'prefs-breadcrumbs-numberofcrumbs-max' => 'This is an information message appearing on [[Special:Preferences#mw-prefsection-rendering|Special:Preferences / Appearance]], explaining which values may be entered for the related user preference option.',
-	'prefs-breadcrumbs-location' => 'This is a user preference option (dropdown list) appearing on [[Special:Preferences#mw-prefsection-rendering|Special:Preferences / Appearance]]. The user may choose the location where the breadcrumbs trail should be shown on the page.',
 	'prefs-breadcrumbs-namespaces' => 'This is a user preference option (check box) appearing on [[Special:Preferences#mw-prefsection-rendering|Special:Preferences / Appearance]]. The user may choose whether the namespace of the pages within the breadcrumbs trail should be shown or not.',
 	'prefs-breadcrumbs-filter-duplicates' => 'This is a user preference option (check box) appearing on [[Special:Preferences#mw-prefsection-rendering|Special:Preferences / Appearance]]. The user may choose whether repeatedly-visited pages should be shown in the breadcrumbs trail or not.',
 	'prefs-breadcrumbs-preceding-text' => 'This is a user preference option (text field) appearing on [[Special:Preferences#mw-prefsection-rendering|Special:Preferences / Appearance]]. The user may enter a text that should be printed in front of the breadcrumbs trail.',
+	'prefs-breadcrumbs-preceding-text-max' => 'This is an information message appearing on [[Special:Preferences#mw-prefsection-rendering|Special:Preferences / Appearance]], explaining how many characters may be entered as preceding text in front of the breadcrumbs trail.',
 );
 
 /** Afrikaans (Afrikaans)
@@ -160,14 +170,16 @@ $messages['da'] = array(
 $messages['de'] = array(
 	'breadcrumbs-desc' => 'Ermöglicht die Anzeige des Navigationsweges des Benutzers durch das Wiki',
 	'prefs-breadcrumbs-separator' => 'Trennzeichen zwischen den einzelnen Navigationselementen:',
+	'prefs-breadcrumbs-separator-max' => 'Maximal 2 Zeichen können als Trennzeichen angegeben werden.',
 	'prefs-breadcrumbs' => 'Navigationsweg',
 	'prefs-breadcrumbs-showcrumbs' => 'Navigationsweg anzeigen',
 	'prefs-breadcrumbs-numberofcrumbs' => 'Anzahl der Navigationselemente:',
-	'prefs-breadcrumbs-numberofcrumbs-max' => 'Maximal 20 Navigationselemente',
+	'prefs-breadcrumbs-numberofcrumbs-max' => 'Es können maximal 20 Navigationselemente angezeigt werden.',
 	'prefs-breadcrumbs-location' => 'Ort, an dem der Navigationsweg angezeigt werden soll:',
 	'prefs-breadcrumbs-namespaces' => 'Namensraum der aufgesuchten Seiten anzeigen',
 	'prefs-breadcrumbs-filter-duplicates' => 'Bereits aufgesuchte Seiten nicht erneut anzeigen',
 	'prefs-breadcrumbs-preceding-text' => 'Vor dem Navigationsweg anzuzeigender Text:',
+	'prefs-breadcrumbs-preceding-text-max' => 'Maximal 30 Zeichen können, als vor dem Navigationsweg anzuzeigender Text, angegeben werden.',
 );
 
 /** Lower Sorbian (dolnoserbski)
