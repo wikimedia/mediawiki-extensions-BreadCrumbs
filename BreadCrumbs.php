@@ -20,7 +20,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 }
 
 # Register extension credits:
-$wgExtensionCredits['parserhook'][] = array(
+$wgExtensionCredits['other'][] = array(
 	'path'           => __FILE__,
 	'name'           => 'BreadCrumbs',
 	'descriptionmsg' => 'breadcrumbs-desc',
