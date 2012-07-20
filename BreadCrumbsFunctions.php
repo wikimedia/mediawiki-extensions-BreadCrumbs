@@ -1,6 +1,6 @@
 <?php
 
-/* The BreadCrumbs extension, an extension for providing a breadcrumbs navigation
+/* The BreadCrumbs extension, an extension for providing a bread crumbs navigation
  * to users.
  *
  * @file BreadCrumbsFunctions.php
@@ -126,25 +126,25 @@ function fnBreadCrumbsAddPreferences( $user, $defaultPreferences ) {
 			'size' => 2,
 			'maxlength'=> 2,
 			'label-message' => 'prefs-breadcrumbs-numberofcrumbs',
-			'help' => wfMsgHtml( 'prefs-breadcrumbs-numberofcrumbs-max' ),
+			'help-message' => 'prefs-breadcrumbs-numberofcrumbs-max',
 		);
 
 		$defaultPreferences['breadcrumbs-preceding-text'] = array(
 			'type' => 'text',
 			'section' => 'rendering/breadcrumbs',
 			'size' => 34,
-                        'maxlength'=> 30,
+			'maxlength'=> 30,
 			'label-message' => 'prefs-breadcrumbs-preceding-text',
-			'help' => wfMsgHtml( 'prefs-breadcrumbs-preceding-text-max' ),
+			'help-message' => 'prefs-breadcrumbs-preceding-text-max',
 		);
 		
 		$defaultPreferences['breadcrumbs-delimiter'] = array(
 			'type' => 'text',
 			'section' => 'rendering/breadcrumbs',
 			'size' => 2,
-                        'maxlength'=> 2,
+			'maxlength'=> 2,
 			'label-message' => 'prefs-breadcrumbs-separator',
-			'help' => wfMsgHtml( 'prefs-breadcrumbs-separator-max' ),
+			'help-message' => 'prefs-breadcrumbs-separator-max',
 		);
 	}
 	
