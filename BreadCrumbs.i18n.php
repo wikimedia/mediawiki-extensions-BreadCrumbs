@@ -99,13 +99,15 @@ $messages['bar'] = array(
 $messages['be-tarask'] = array(
 	'breadcrumbs-desc' => 'Дадае навігацыйны шлях («хлебныя крошкі») пад панэль закладак',
 	'prefs-breadcrumbs-separator' => 'Разьдзяляльнік хлебных крошак',
+	'prefs-breadcrumbs-separator-max' => 'Можа быць уведзена ня больш за 2 сымбалі.',
 	'prefs-breadcrumbs' => 'Навігацыйны шлях',
 	'prefs-breadcrumbs-showcrumbs' => 'Паказваць навігацыйны шлях',
 	'prefs-breadcrumbs-numberofcrumbs' => 'Даўжыня навігацыйнага шляху',
-	'prefs-breadcrumbs-numberofcrumbs-max' => 'Ня болей 20 пунктаў',
+	'prefs-breadcrumbs-numberofcrumbs-max' => 'Ня больш за 20 «хлебных крошак».',
 	'prefs-breadcrumbs-namespaces' => 'Дадаваць прасторы назваў у навігацыйны шлях',
 	'prefs-breadcrumbs-filter-duplicates' => 'Адфільтроўваць часта наведвальныя старонкі',
 	'prefs-breadcrumbs-preceding-text' => 'Тэкст перад навігацыйным шляхам',
+	'prefs-breadcrumbs-preceding-text-max' => 'Можа быць уведзена ня больш за 30 сымбаляў.',
 );
 
 /** Bulgarian (български) */
@@ -209,13 +211,15 @@ $messages['eo'] = array(
 $messages['es'] = array(
 	'breadcrumbs-desc' => 'Añade los vínculos del recorrido de navegación bajo la barra de pestañas',
 	'prefs-breadcrumbs-separator' => 'Separador en la Ruta de navegación',
+	'prefs-breadcrumbs-separator-max' => 'Puede introducir un máximo de 2 caracteres.',
 	'prefs-breadcrumbs' => 'Recorrido de navegación',
 	'prefs-breadcrumbs-showcrumbs' => 'Mostrar el recorrido de navegación',
 	'prefs-breadcrumbs-numberofcrumbs' => 'Número de vínculos de recorrido de navegación',
-	'prefs-breadcrumbs-numberofcrumbs-max' => 'Máximo, 20 vínculos de recorrido de navegación',
+	'prefs-breadcrumbs-numberofcrumbs-max' => 'Pueden mostrarse un máximo de 20 enlaces en la guía de navegación.',
 	'prefs-breadcrumbs-namespaces' => 'Incluir espacios de nombre en la ruta de navegación',
 	'prefs-breadcrumbs-filter-duplicates' => 'Filtrar las páginas visitadas repetidamente',
 	'prefs-breadcrumbs-preceding-text' => 'Texto que aparece antes de la Guía de navegación',
+	'prefs-breadcrumbs-preceding-text-max' => 'Puede introducir un máximo de 30 caracteres.',
 );
 
 /** Basque (euskara) */
@@ -239,18 +243,21 @@ $messages['fi'] = array(
 
 /** French (français)
  * @author Gomoko
+ * @author IAlex
  * @author Peter17
  */
 $messages['fr'] = array(
 	'breadcrumbs-desc' => "Ajoute une suite de liens de navigation sous la barre d'onglets",
 	'prefs-breadcrumbs-separator' => "Séparateur du fil d'Ariane",
+	'prefs-breadcrumbs-separator-max' => 'Un maximum de 2 caractères peuvent être entrés.',
 	'prefs-breadcrumbs' => 'Barre de navigation',
 	'prefs-breadcrumbs-showcrumbs' => 'Afficher la barre de navigation',
 	'prefs-breadcrumbs-numberofcrumbs' => 'Nombre de liens de navigation',
-	'prefs-breadcrumbs-numberofcrumbs-max' => 'Maximum 20 liens de navigation',
+	'prefs-breadcrumbs-numberofcrumbs-max' => 'Au maximum 20 liens de navigation peuvent être affichés',
 	'prefs-breadcrumbs-namespaces' => "Inclure les espaces de noms dans les fils d'Ariane",
 	'prefs-breadcrumbs-filter-duplicates' => 'Filtrer les pages visitées à plusieurs reprises',
 	'prefs-breadcrumbs-preceding-text' => "Texte à afficher devant les fils d'Ariane",
+	'prefs-breadcrumbs-preceding-text-max' => 'Un maximum de 30 caractères peuvent être entrés.',
 );
 
 /** Franco-Provençal (arpetan)
@@ -365,13 +372,15 @@ $messages['hu'] = array(
 $messages['ia'] = array(
 	'breadcrumbs-desc' => 'Adde un tracia de paginas visitate sub le barra de schedas',
 	'prefs-breadcrumbs-separator' => 'Separator inter paginas visitate',
+	'prefs-breadcrumbs-separator-max' => 'Un maximo de 2 characteres pote esser entrate.',
 	'prefs-breadcrumbs' => 'Paginas visitate',
 	'prefs-breadcrumbs-showcrumbs' => 'Monstrar le paginas que tu ha visitate',
 	'prefs-breadcrumbs-numberofcrumbs' => 'Numero de paginas visitate',
-	'prefs-breadcrumbs-numberofcrumbs-max' => 'Le maximo de paginas visitate es 20',
+	'prefs-breadcrumbs-numberofcrumbs-max' => 'Un maximo de 20 paginas visitate pote esser monstrate.',
 	'prefs-breadcrumbs-namespaces' => 'Includer le spatios de nomine in le paginas visitate',
 	'prefs-breadcrumbs-filter-duplicates' => 'Excluder paginas visitate repetitemente',
 	'prefs-breadcrumbs-preceding-text' => 'Texto que appare ante le paginas visitate',
+	'prefs-breadcrumbs-preceding-text-max' => 'Un maximo de 30 characteres pote esser entrate.',
 );
 
 /** Indonesian (Bahasa Indonesia)
@@ -567,11 +576,13 @@ $messages['ne'] = array(
 );
 
 /** Dutch (Nederlands)
+ * @author SPQRobin
  * @author Siebrand
  */
 $messages['nl'] = array(
 	'breadcrumbs-desc' => 'Voegt een spoor toe van de navigatiegeschiedenis onder de menubalk',
 	'prefs-breadcrumbs-separator' => 'Scheidingsteken voor navigatiegeschiedenis',
+	'prefs-breadcrumbs-separator-max' => 'Er kunnen maximum 2 tekens worden ingevoerd.',
 	'prefs-breadcrumbs' => 'Navigatiegeschiedenis',
 	'prefs-breadcrumbs-showcrumbs' => 'Navigatiegeschiedenis weergeven',
 	'prefs-breadcrumbs-numberofcrumbs' => "Aantal weer te geven pagina's in navigatiegeschiedenis",
@@ -579,6 +590,7 @@ $messages['nl'] = array(
 	'prefs-breadcrumbs-namespaces' => 'Naamruimten opnemen in navigatiegeschiedenis',
 	'prefs-breadcrumbs-filter-duplicates' => "Herhaaldelijk bezochte pagina's niet opnemen",
 	'prefs-breadcrumbs-preceding-text' => 'Weer te geven tekst voor navigatiegeschiedenis',
+	'prefs-breadcrumbs-preceding-text-max' => 'Er kunnen maximum 30 tekens worden ingevoerd.',
 );
 
 /** Norwegian Nynorsk (‪norsk (nynorsk)‬) */
@@ -622,6 +634,7 @@ $messages['pdt'] = array(
 );
 
 /** Polish (polski)
+ * @author BeginaFelicysym
  * @author Sp5uhe
  */
 $messages['pl'] = array(
@@ -629,7 +642,7 @@ $messages['pl'] = array(
 	'prefs-breadcrumbs' => 'Ścieżka hiperłączy',
 	'prefs-breadcrumbs-showcrumbs' => 'Wyświetl ścieżkę hiperłączy',
 	'prefs-breadcrumbs-numberofcrumbs' => 'Liczba hiperłączy w ścieżce',
-	'prefs-breadcrumbs-numberofcrumbs-max' => 'Maksymalnie 20 hiperłączy w ścieżce',
+	'prefs-breadcrumbs-numberofcrumbs-max' => 'Maksymalnie 20 hiperłączy w ścieżce.',
 );
 
 /** Piedmontese (Piemontèis)
