@@ -58,6 +58,9 @@ $wgBreadCrumbsIgnoreRefreshes = true;
 # Whether to rearrange history - Not yet used
 $wgBreadCrumbsRearrangeHistory = false;
 
+# Whether to link our breadcrumbs
+$wgBreadCrumbsLink = true;
+
 # Text to appear before breadcrumbs
 $wgDefaultUserOptions['breadcrumbs-preceding-text'] = '';
 

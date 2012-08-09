@@ -1,6 +1,6 @@
 <?php
 
-/* The BreadCrumbs extension, an extension for providing a bread crumbs navigation
+/* The BreadCrumbs extension, an extension for providing a breadcrumbs navigation
  * to users.
  *
  * @file BreadCrumbsFunctions.php
@@ -17,7 +17,7 @@ if (!defined('MEDIAWIKI')) {
 
 function fnBreadCrumbsShowHook(&$article) {
 	global $wgOut, $wgUser, $wgDefaultUserOptions;
-	global $wgBreadCrumbsShowAnons, $wgBreadCrumbsIgnoreRefreshes, $wgBreadCrumbsRearrangeHistory;
+	global $wgBreadCrumbsShowAnons, $wgBreadCrumbsIgnoreRefreshes, $wgBreadCrumbsRearrangeHistory, $wgBreadCrumbsLink;
 
 	$wluOptions = $wgUser -> getOptions();
 	
@@ -70,10 +70,25 @@ function fnBreadCrumbsShowHook(&$article) {
 	for ($i = 1; $i <= $max; $i++) {
 		$j = count($m_BreadCrumbs) - $i;
 		$title = Title::newFromText($m_BreadCrumbs[$j]);
-		if ($wluOptions['breadcrumbs-namespaces']){
-			$breadcrumb = Linker::link($title, $m_BreadCrumbs[$j]);} 
-		else {
-			$breadcrumb = Linker::link($title, $title->getText());}
+		if ($wgBreadCrumbsLink){
+			#For whatever reason, the Linker doesn't play nice in Versions before 1.18.0...
+			if(version_compare(SpecialVersion::getVersion(), '1.18.0')>-1){
+				if ($wluOptions['breadcrumbs-namespaces']){
+					$breadcrumb = Linker::link($title, $m_BreadCrumbs[$j]);} 
+				else {
+					$breadcrumb = Linker::link($title, $title->getText());}
+			}else{
+				if ($wluOptions['breadcrumbs-namespaces']){
+					$breadcrumb = '<a href="'.$title->getFullURL().'" title="'.$m_BreadCrumbs[$j].'">'.$m_BreadCrumbs[$j].'</a>';} 
+				else {
+					$breadcrumb = '<a href="'.$title->getFullURL().'" title="'.$title->getText().'">'.$title->getText().'</a>';} 
+			}
+		}else{
+			if ($wluOptions['breadcrumbs-namespaces']){
+				$breadcrumb = $m_BreadCrumbs[$j];} 
+			else {
+				$breadcrumb = $title->getText();}
+		}
 		$breadcrumbs = $breadcrumb . $breadcrumbs;
 		if ($i < $max) {
 			$breadcrumbs = ' ' . htmlspecialchars($wluOptions['breadcrumbs-delimiter']) . ' ' . $breadcrumbs;
@@ -126,25 +141,25 @@ function fnBreadCrumbsAddPreferences( $user, $defaultPreferences ) {
 			'size' => 2,
 			'maxlength'=> 2,
 			'label-message' => 'prefs-breadcrumbs-numberofcrumbs',
-			'help-message' => 'prefs-breadcrumbs-numberofcrumbs-max',
+			'help' => wfMsgHtml( 'prefs-breadcrumbs-numberofcrumbs-max' ),
 		);
 
 		$defaultPreferences['breadcrumbs-preceding-text'] = array(
 			'type' => 'text',
 			'section' => 'rendering/breadcrumbs',
 			'size' => 34,
-			'maxlength'=> 30,
+            'maxlength'=> 30,
 			'label-message' => 'prefs-breadcrumbs-preceding-text',
-			'help-message' => 'prefs-breadcrumbs-preceding-text-max',
+			'help' => wfMsgHtml( 'prefs-breadcrumbs-preceding-text-max' ),
 		);
 		
 		$defaultPreferences['breadcrumbs-delimiter'] = array(
 			'type' => 'text',
 			'section' => 'rendering/breadcrumbs',
 			'size' => 2,
-			'maxlength'=> 2,
+            'maxlength'=> 2,
 			'label-message' => 'prefs-breadcrumbs-separator',
-			'help-message' => 'prefs-breadcrumbs-separator-max',
+			'help' => wfMsgHtml( 'prefs-breadcrumbs-separator-max' ),
 		);
 	}
 	
