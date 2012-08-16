@@ -567,6 +567,23 @@ $messages['ms'] = array(
 	'breadcrumbs-desc' => 'Menunjukkan laluan melalui wiki kepada pengguna',
 );
 
+/** Maltese (Malti)
+ * @author Chrisportelli
+ */
+$messages['mt'] = array(
+	'breadcrumbs-desc' => "Turi lill-utenti ħoloq ta' navigazzjoni",
+	'prefs-breadcrumbs-separator' => "Separatur tal-ħoloq ta' navigazzjoni",
+	'prefs-breadcrumbs-separator-max' => "Jistgħu jiddaħħlu massimu ta' 2 karattri.",
+	'prefs-breadcrumbs' => "Strixxa ta' navigazzjoni",
+	'prefs-breadcrumbs-showcrumbs' => "Uri l-istrixxa ta' navigazzjoni",
+	'prefs-breadcrumbs-numberofcrumbs' => "Numru ta' ħoloq ta' navigazzjoni",
+	'prefs-breadcrumbs-numberofcrumbs-max' => "Jistgħu jidhru massimu ta' 20 ħolqa ta' navigazzjoni.",
+	'prefs-breadcrumbs-namespaces' => "Inkludi l-ispazji tal-isem fil-ħoloq ta' navigazzjoni",
+	'prefs-breadcrumbs-filter-duplicates' => 'Eskldui l-paġni miżjura ħafna drabi',
+	'prefs-breadcrumbs-preceding-text' => "Test x'jintwera qabel l-istrixxa ta' navigazzjoni",
+	'prefs-breadcrumbs-preceding-text-max' => "Jistgħu jiddaħħlu massimu ta' 30 karattru.",
+);
+
 /** Nahuatl (Nāhuatl) */
 $messages['nah'] = array(
 	'breadcrumbs-desc' => 'Tiquinttāz tlatequitiltilīlli in īoh huiquitoca',
