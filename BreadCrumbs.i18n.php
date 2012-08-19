@@ -438,13 +438,15 @@ $messages['it'] = array(
 $messages['ja'] = array(
 	'breadcrumbs-desc' => 'パンくずリストをタブバーの下に追加する',
 	'prefs-breadcrumbs-separator' => 'パンくずリスト内の区切り',
+	'prefs-breadcrumbs-separator-max' => '最大 2 文字が入力されます。',
 	'prefs-breadcrumbs' => 'パンくずリスト',
 	'prefs-breadcrumbs-showcrumbs' => 'パンくずリストを表示',
 	'prefs-breadcrumbs-numberofcrumbs' => 'パンくずリストの項目数',
-	'prefs-breadcrumbs-numberofcrumbs-max' => '最大 20 個のパンくずリスト項目',
+	'prefs-breadcrumbs-numberofcrumbs-max' => '最大 20 個のパンくずリスト項目が表示されます。',
 	'prefs-breadcrumbs-namespaces' => 'パンくずリストに名前空間を含める',
 	'prefs-breadcrumbs-filter-duplicates' => '繰り返し訪れたページを除外する',
 	'prefs-breadcrumbs-preceding-text' => 'パンくずリストの前に表示する文字列',
+	'prefs-breadcrumbs-preceding-text-max' => '最大 30 文字が入力されます。',
 );
 
 /** Jamaican Creole English (Patois)
