@@ -321,10 +321,16 @@ $messages['gv'] = array(
  */
 $messages['he'] = array(
 	'breadcrumbs-desc' => 'הוספת שביל פירורי לחם תחת סרגל הלשוניות',
+	'prefs-breadcrumbs-separator' => 'תו מפריד לפירורי לחם',
+	'prefs-breadcrumbs-separator-max' => 'אפשר להזין 2 תווים לכל היותר',
 	'prefs-breadcrumbs' => 'פירורי לחם',
 	'prefs-breadcrumbs-showcrumbs' => 'להציג פירורי לחם',
 	'prefs-breadcrumbs-numberofcrumbs' => 'מספר פירורי הלחם',
-	'prefs-breadcrumbs-numberofcrumbs-max' => '20 פירורי לחם לכל היותר',
+	'prefs-breadcrumbs-numberofcrumbs-max' => 'אפשר להציג 20 פירורי לחם לכל היותר',
+	'prefs-breadcrumbs-namespaces' => 'לכלול את מרחב השם בפירורי לחם',
+	'prefs-breadcrumbs-filter-duplicates' => ' לסנן דפים שחוזרים על עצמם הרבה',
+	'prefs-breadcrumbs-preceding-text' => 'טקסט שיופיע לפני פירורי הלחם',
+	'prefs-breadcrumbs-preceding-text-max' => 'אפשר להזין לכל היותר 30 תווים.',
 );
 
 /** Hindi (हिन्दी)
@@ -679,10 +685,12 @@ $messages['pdt'] = array(
  */
 $messages['pl'] = array(
 	'breadcrumbs-desc' => 'Dodaje szlak nawigacyjny poniżej paska zakładek',
+	'prefs-breadcrumbs-separator-max' => 'Można wpisać maksymalnie 2 znaki.',
 	'prefs-breadcrumbs' => 'Ścieżka hiperłączy',
 	'prefs-breadcrumbs-showcrumbs' => 'Wyświetl ścieżkę hiperłączy',
 	'prefs-breadcrumbs-numberofcrumbs' => 'Liczba hiperłączy w ścieżce',
 	'prefs-breadcrumbs-numberofcrumbs-max' => 'Maksymalnie 20 hiperłączy w ścieżce.',
+	'prefs-breadcrumbs-preceding-text-max' => 'Można wpisać maksymalnie 30 znaków.',
 );
 
 /** Piedmontese (Piemontèis)
