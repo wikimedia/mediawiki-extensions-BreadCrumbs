@@ -442,7 +442,7 @@ $messages['it'] = array(
  * @author 青子守歌
  */
 $messages['ja'] = array(
-	'breadcrumbs-desc' => 'パンくずリストをタブバーの下に追加する',
+	'breadcrumbs-desc' => 'パンくずリストをページに追加する',
 	'prefs-breadcrumbs-separator' => 'パンくずリスト内の区切り',
 	'prefs-breadcrumbs-separator-max' => '最大 2 文字が入力されます。',
 	'prefs-breadcrumbs' => 'パンくずリスト',
