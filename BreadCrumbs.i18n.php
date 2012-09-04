@@ -182,6 +182,13 @@ $messages['de'] = array(
 	'prefs-breadcrumbs-preceding-text-max' => 'Maximal 30 Zeichen können, als vor dem Navigationsweg anzuzeigender Text, angegeben werden.',
 );
 
+/** Zazaki (Zazaki)
+ * @author Erdemaslancan
+ */
+$messages['diq'] = array(
+	'breadcrumbs-desc' => 'Wiki de heruna karberan mocneno',
+);
+
 /** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
