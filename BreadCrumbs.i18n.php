@@ -93,7 +93,7 @@ $messages['bar'] = array(
 	'breadcrumbs-desc' => "Zoagt in Weg vu dem Benutza duach's Wiki.",
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Wizardist
  */
@@ -607,7 +607,7 @@ $messages['nah'] = array(
 	'breadcrumbs-desc' => 'Tiquinttāz tlatequitiltilīlli in īoh huiquitoca',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬) */
+/** Norwegian Bokmål (norsk (bokmål)‎) */
 $messages['nb'] = array(
 	'breadcrumbs-desc' => 'Viser brukerens sti gjennom wikien',
 );
@@ -649,7 +649,7 @@ $messages['nl'] = array(
 	'prefs-breadcrumbs-preceding-text-max' => 'Er kunnen maximum 30 tekens worden ingevoerd.',
 );
 
-/** Norwegian Nynorsk (‪norsk (nynorsk)‬) */
+/** Norwegian Nynorsk (norsk (nynorsk)‎) */
 $messages['nn'] = array(
 	'breadcrumbs-desc' => 'Viser stigen til brukaren gjennom wikien',
 );
@@ -803,12 +803,12 @@ $messages['sq'] = array(
 	'breadcrumbs-desc' => 'Tregon rrugën e përdoruesit nëpër wiki',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬) */
+/** Serbian (Cyrillic script) (српски (ћирилица)‎) */
 $messages['sr-ec'] = array(
 	'breadcrumbs-desc' => 'Показује путање корисника кроз Вики',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬) */
+/** Serbian (Latin script) (srpski (latinica)‎) */
 $messages['sr-el'] = array(
 	'breadcrumbs-desc' => 'Pokazuje putanje korisnika kroz Viki',
 );
@@ -922,14 +922,14 @@ $messages['yue'] = array(
 	'breadcrumbs-desc' => '顯示用戶響呢個wiki嘅路徑。',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Gaoxuewei
  */
 $messages['zh-hans'] = array(
 	'breadcrumbs-desc' => '显示用户在这个网站的轨迹。',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Gaoxuewei
  */
 $messages['zh-hant'] = array(
