@@ -2,5 +2,5 @@
 host=gerrit.wikimedia.org
 port=29418
 project=mediawiki/extensions/BreadCrumbs
-defaultbranch=master
+defaultbranch=wikivoyage
 defaultrebase=0

@@ -11,12 +11,14 @@ $dir = dirname(__FILE__) . '/';
 $wgExtensionMessagesFiles['BreadCrumbs'] = $dir . 'BreadCrumbs.i18n.php';
 
 $wgExtensionFunctions[] = 'wfSetupBreadCrumbs';
-
 $wgExtensionCredits['parserhook']['BreadCrumbs'] = array( 'name' => 'BreadCrumbs', 'url' => 
 'http://wikivoyage.org/tech/BreadCrumbs-Extension', 'author' => 'Roland Unger/Hans Musil',
 'descriptionmsg' => 'bct-desc' );
 
 $wgHooks['LanguageGetMagic'][]			 = 'wfBreadCrumbsParserFunction_Magic';
+
+$wgBctDelimiter = '&gt;';
+
 
 class BreadCrumbs
 {
@@ -147,7 +149,7 @@ class BreadCrumbs
 
 		if( !wfRunHooks('BreadCrumbsBeforeOutput', array(&$this, &$SkTmpl, &$QuickTmpl))){ return true;};
 
-		global $wgCustomData, $wgOut, $wgTitle;
+		global $wgCustomData, $wgOut, $wgTitle, $wgBctDelimiter;
 
 		# Parser hook onParserBeforeTidy doesn't trigger completition if only previewing.
 		#
@@ -163,7 +165,7 @@ class BreadCrumbs
 		# $subparts = explode( '/', $wgTitle->getText());
     # array_push( $bc_arr, $this->shortTitle( array_pop( $subparts)));
     array_push( $bc_arr, $this->shortTitle( $wgTitle->getText()));
-		$bc = implode( ' '.wfMsgForContent( 'bct-delimiter' ).' ', $bc_arr);
+		$bc = implode( ' '.$wgBctDelimiter.' ', $bc_arr);
 
 		/*
 		if( $wgTitle->getNamespace() == NS_MAIN)
