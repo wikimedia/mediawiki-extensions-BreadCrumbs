@@ -188,6 +188,7 @@ $messages['de'] = array(
  */
 $messages['diq'] = array(
 	'breadcrumbs-desc' => 'Wiki de heruna karberan mocneno',
+	'prefs-breadcrumbs' => 'Urê Nani',
 );
 
 /** Lower Sorbian (dolnoserbski)
