@@ -57,17 +57,20 @@ $messages['af'] = array(
 	'breadcrumbs-desc' => 'Voeg \'n spoor van broodkrummels onder die "tab bar" by',
 );
 
-/** Gheg Albanian (Gegë) */
+/** Gheg Albanian (Gegë)
+ */
 $messages['aln'] = array(
 	'breadcrumbs-desc' => 'Tregon shtegun e përdoruesit nëpër wiki',
 );
 
-/** Arabic (العربية) */
+/** Arabic (العربية)
+ */
 $messages['ar'] = array(
 	'breadcrumbs-desc' => 'يعرض مسار المستخدمين خلال الويكي',
 );
 
-/** Egyptian Spoken Arabic (مصرى) */
+/** Egyptian Spoken Arabic (مصرى)
+ */
 $messages['arz'] = array(
 	'breadcrumbs-desc' => 'يعرض مسار المستخدمين خلال الويكى',
 );
@@ -111,7 +114,8 @@ $messages['be-tarask'] = array(
 	'prefs-breadcrumbs-preceding-text-max' => 'Можа быць уведзена ня больш за 30 сымбаляў.',
 );
 
-/** Bulgarian (български) */
+/** Bulgarian (български)
+ */
 $messages['bg'] = array(
 	'breadcrumbs-desc' => 'Показва текущото място на потребителя в уикито',
 );
@@ -132,7 +136,7 @@ $messages['br'] = array(
 	'prefs-breadcrumbs' => 'Barrenn verdeiñ',
 	'prefs-breadcrumbs-showcrumbs' => 'Diskouez ar varenn merdeiñ',
 	'prefs-breadcrumbs-numberofcrumbs' => 'Niver a liammoù merdeiñ',
-	'prefs-breadcrumbs-numberofcrumbs-max' => "D'ar muiañ 20 liamm merdeiñ",
+	'prefs-breadcrumbs-numberofcrumbs-max' => "D'ar muiañ 20 liamm merdeiñ", # Fuzzy
 );
 
 /** Bosnian (bosanski)
@@ -143,25 +147,29 @@ $messages['bs'] = array(
 	'prefs-breadcrumbs' => 'Mrvice',
 	'prefs-breadcrumbs-showcrumbs' => 'Prikaži mrvice',
 	'prefs-breadcrumbs-numberofcrumbs' => 'Broj mrvica',
-	'prefs-breadcrumbs-numberofcrumbs-max' => 'Najviše 20 mrvica',
+	'prefs-breadcrumbs-numberofcrumbs-max' => 'Najviše 20 mrvica', # Fuzzy
 );
 
-/** Catalan (català) */
+/** Catalan (català)
+ */
 $messages['ca'] = array(
 	'breadcrumbs-desc' => 'Mostra el recorregut dels usuaris a través de la wiki',
 );
 
-/** Czech (česky) */
+/** Czech (česky)
+ */
 $messages['cs'] = array(
 	'breadcrumbs-desc' => 'Zobrazí cestu uživatele ve wiki',
 );
 
-/** Welsh (Cymraeg) */
+/** Welsh (Cymraeg)
+ */
 $messages['cy'] = array(
 	'breadcrumbs-desc' => 'Yn dangos llwybr y defnyddiwr ar hyd y wici',
 );
 
-/** Danish (dansk) */
+/** Danish (dansk)
+ */
 $messages['da'] = array(
 	'breadcrumbs-desc' => 'Viser brugerstien på wikien',
 );
@@ -204,12 +212,14 @@ $messages['dsb'] = array(
 	'prefs-breadcrumbs-preceding-text-max' => 'Maksimalnje 30 znamuškow dajo se zapódaś.',
 );
 
-/** Greek (Ελληνικά) */
+/** Greek (Ελληνικά)
+ */
 $messages['el'] = array(
 	'breadcrumbs-desc' => 'Υποδεικνύει ποιες σελίδες επισκέφθηκε ο εκάστοτε χρήστης σε αυτό το βίκι',
 );
 
-/** Esperanto (Esperanto) */
+/** Esperanto (Esperanto)
+ */
 $messages['eo'] = array(
 	'breadcrumbs-desc' => 'Montras la vojon de uzanto tra la vikio',
 );
@@ -233,7 +243,8 @@ $messages['es'] = array(
 	'prefs-breadcrumbs-preceding-text-max' => 'Puede introducir un máximo de 30 caracteres.',
 );
 
-/** Basque (euskara) */
+/** Basque (euskara)
+ */
 $messages['eu'] = array(
 	'breadcrumbs-desc' => 'Wikian zeharreko erabiltzaileen ibilbidea erakusten du',
 );
@@ -279,10 +290,11 @@ $messages['frp'] = array(
 	'prefs-breadcrumbs' => '« Chaplons de pan »',
 	'prefs-breadcrumbs-showcrumbs' => 'Fâre vêre los « chaplons de pan »',
 	'prefs-breadcrumbs-numberofcrumbs' => 'Nombro de « chaplons de pan »',
-	'prefs-breadcrumbs-numberofcrumbs-max' => 'U més 20 « chaplons de pan »',
+	'prefs-breadcrumbs-numberofcrumbs-max' => 'U més 20 « chaplons de pan »', # Fuzzy
 );
 
-/** Western Frisian (Frysk) */
+/** Western Frisian (Frysk)
+ */
 $messages['fy'] = array(
 	'breadcrumbs-desc' => 'Lit it paad sjen dat meidoggers yn de wiki berinne',
 );
@@ -304,7 +316,8 @@ $messages['gl'] = array(
 	'prefs-breadcrumbs-preceding-text-max' => 'Pode inserir un máximo de 30 caracteres.',
 );
 
-/** Ancient Greek (Ἀρχαία ἑλληνικὴ) */
+/** Ancient Greek (Ἀρχαία ἑλληνικὴ)
+ */
 $messages['grc'] = array(
 	'breadcrumbs-desc' => 'Δεικνύει τὴν ἀτραπὸν ἑκάστου τοῦ χρωμένου',
 );
@@ -317,10 +330,11 @@ $messages['gsw'] = array(
 	'prefs-breadcrumbs' => '„Brogmoseme“',
 	'prefs-breadcrumbs-showcrumbs' => '„Brogmoseme“ aazeige',
 	'prefs-breadcrumbs-numberofcrumbs' => 'Aazahl vu dr „Brogmoseme“',
-	'prefs-breadcrumbs-numberofcrumbs-max' => 'Maximal 20 „Brogmoseme“',
+	'prefs-breadcrumbs-numberofcrumbs-max' => 'Maximal 20 „Brogmoseme“', # Fuzzy
 );
 
-/** Manx (Gaelg) */
+/** Manx (Gaelg)
+ */
 $messages['gv'] = array(
 	'breadcrumbs-desc' => 'Taishbyney cassan ny h-ymmydeyryn trooid y wiki',
 );
@@ -349,12 +363,14 @@ $messages['hi'] = array(
 	'breadcrumbs-desc' => 'विकिमें सदस्यका पाथ दर्शाता हैं।',
 );
 
-/** Hiligaynon (Ilonggo) */
+/** Hiligaynon (Ilonggo)
+ */
 $messages['hil'] = array(
 	'breadcrumbs-desc' => 'Ginapakita ang alagyan sang mga user pa-agi sa wiki',
 );
 
-/** Croatian (hrvatski) */
+/** Croatian (hrvatski)
+ */
 $messages['hr'] = array(
 	'breadcrumbs-desc' => 'Pokazuje put suradnika kroz wiki',
 );
@@ -384,7 +400,7 @@ $messages['hu'] = array(
 	'prefs-breadcrumbs' => 'Bread Crumbs',
 	'prefs-breadcrumbs-showcrumbs' => 'Bread crumb megjelenítése',
 	'prefs-breadcrumbs-numberofcrumbs' => 'Bread crumbok száma',
-	'prefs-breadcrumbs-numberofcrumbs-max' => 'Maximum 20 bread crumb',
+	'prefs-breadcrumbs-numberofcrumbs-max' => 'Maximum 20 bread crumb', # Fuzzy
 );
 
 /** Interlingua (interlingua)
@@ -412,7 +428,7 @@ $messages['id'] = array(
 	'prefs-breadcrumbs' => 'Remah Roti',
 	'prefs-breadcrumbs-showcrumbs' => 'Tampilkan remah roti',
 	'prefs-breadcrumbs-numberofcrumbs' => 'Jumlah remah roti',
-	'prefs-breadcrumbs-numberofcrumbs-max' => 'Maksimum 20 remah roti',
+	'prefs-breadcrumbs-numberofcrumbs-max' => 'Maksimum 20 remah roti', # Fuzzy
 );
 
 /** Igbo (Igbo)
@@ -471,7 +487,8 @@ $messages['jam'] = array(
 	'breadcrumbs-desc' => 'Shuo di yuuza paat chruu di wiki',
 );
 
-/** Javanese (Basa Jawa) */
+/** Javanese (Basa Jawa)
+ */
 $messages['jv'] = array(
 	'breadcrumbs-desc' => 'Nuduhaké para panganggo dalan ngliwati wiki',
 );
@@ -483,7 +500,8 @@ $messages['km'] = array(
 	'breadcrumbs-desc' => 'បង្ហាញ​ផ្លូវ​របស់​អ្នកប្រើប្រាស់​នានា​តាមរយៈ​វិគី​។',
 );
 
-/** Kannada (ಕನ್ನಡ) */
+/** Kannada (ಕನ್ನಡ)
+ */
 $messages['kn'] = array(
 	'breadcrumbs-desc' => 'ವಿಕಿಯಲ್ಲಿ ಸದಸ್ಯರ ಪಥವನ್ನು ತೋರಿಸುತ್ತದೆ',
 );
@@ -531,7 +549,8 @@ $messages['lb'] = array(
 	'prefs-breadcrumbs-filter-duplicates' => 'Dacks besichte Säiten erausfilteren',
 );
 
-/** Limburgish (Limburgs) */
+/** Limburgish (Limburgs)
+ */
 $messages['li'] = array(
 	'breadcrumbs-desc' => 'Tuuntj gebroekerspaad dore wiki',
 );
@@ -574,7 +593,8 @@ $messages['mk'] = array(
 	'prefs-breadcrumbs-preceding-text-max' => 'Можете да внесете највеќе 30 знаци.',
 );
 
-/** Marathi (मराठी) */
+/** Marathi (मराठी)
+ */
 $messages['mr'] = array(
 	'breadcrumbs-desc' => 'विकिमधील सदस्याचा मार्ग (पाथ) दर्शविते',
 );
@@ -603,17 +623,20 @@ $messages['mt'] = array(
 	'prefs-breadcrumbs-preceding-text-max' => "Jistgħu jiddaħħlu massimu ta' 30 karattru.",
 );
 
-/** Nahuatl (Nāhuatl) */
+/** Nahuatl (Nāhuatl)
+ */
 $messages['nah'] = array(
 	'breadcrumbs-desc' => 'Tiquinttāz tlatequitiltilīlli in īoh huiquitoca',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎) */
+/** Norwegian Bokmål (norsk (bokmål)‎)
+ */
 $messages['nb'] = array(
 	'breadcrumbs-desc' => 'Viser brukerens sti gjennom wikien',
 );
 
-/** Low German (Plattdüütsch) */
+/** Low German (Plattdüütsch)
+ */
 $messages['nds'] = array(
 	'breadcrumbs-desc' => 'Wiest den Padd vun’n Bruker dör dat Wiki',
 );
@@ -650,7 +673,8 @@ $messages['nl'] = array(
 	'prefs-breadcrumbs-preceding-text-max' => 'Er kunnen maximum 30 tekens worden ingevoerd.',
 );
 
-/** Norwegian Nynorsk (norsk (nynorsk)‎) */
+/** Norwegian Nynorsk (norsk (nynorsk)‎)
+ */
 $messages['nn'] = array(
 	'breadcrumbs-desc' => 'Viser stigen til brukaren gjennom wikien',
 );
@@ -666,7 +690,8 @@ $messages['no'] = array(
 	'prefs-breadcrumbs-numberofcrumbs-max' => 'Maks 20 brødsmuler',
 );
 
-/** Occitan (occitan) */
+/** Occitan (occitan)
+ */
 $messages['oc'] = array(
 	'breadcrumbs-desc' => 'Aficha lo ligam de las darrièras paginas que l’utilizaire a visitadas dins lo wiki',
 );
@@ -685,7 +710,8 @@ $messages['pap'] = array(
 	'breadcrumbs-desc' => 'Esaki ta mustra usuarionan e kon e wiki ta hinká den otro',
 );
 
-/** Plautdietsch (Plautdietsch) */
+/** Plautdietsch (Plautdietsch)
+ */
 $messages['pdt'] = array(
 	'breadcrumbs-desc' => 'Wiest dem Wajch vom Brucka derch daut Wiki',
 );
@@ -713,7 +739,7 @@ $messages['pms'] = array(
 	'prefs-breadcrumbs' => 'Ampovrà ëd farin-a',
 	'prefs-breadcrumbs-showcrumbs' => 'Visualisé la bara ëd navigassion',
 	'prefs-breadcrumbs-numberofcrumbs' => "Nùmer d'ampovrà",
-	'prefs-breadcrumbs-numberofcrumbs-max' => 'Al pi 20 ampovrà',
+	'prefs-breadcrumbs-numberofcrumbs-max' => 'Al pi 20 ampovrà', # Fuzzy
 );
 
 /** Portuguese (português)
@@ -741,20 +767,23 @@ $messages['pt-br'] = array(
 	'prefs-breadcrumbs' => 'Percurso de Navegação',
 	'prefs-breadcrumbs-showcrumbs' => 'Mostrar percurso de navegação',
 	'prefs-breadcrumbs-numberofcrumbs' => 'Número de passos',
-	'prefs-breadcrumbs-numberofcrumbs-max' => 'No máximo 20 passos',
+	'prefs-breadcrumbs-numberofcrumbs-max' => 'No máximo 20 passos', # Fuzzy
 );
 
-/** Tarifit (Tarifit) */
+/** Tarifit (Tarifit)
+ */
 $messages['rif'] = array(
 	'breadcrumbs-desc' => 'Isskan-d tabridt n usqdac di wiki',
 );
 
-/** Romanian (română) */
+/** Romanian (română)
+ */
 $messages['ro'] = array(
 	'breadcrumbs-desc' => 'Arată calea utilizatorilor prin wiki',
 );
 
-/** tarandíne (tarandíne) */
+/** tarandíne (tarandíne)
+ */
 $messages['roa-tara'] = array(
 	'breadcrumbs-desc' => 'Fà vedè le percorse de le utinde attraverse le Uicchipèdie',
 );
@@ -769,13 +798,14 @@ $messages['ru'] = array(
 	'prefs-breadcrumbs' => 'Хлебные крошки',
 	'prefs-breadcrumbs-showcrumbs' => 'Показывать «хлебные крошки»',
 	'prefs-breadcrumbs-numberofcrumbs' => 'Число «хлебных крошек»',
-	'prefs-breadcrumbs-numberofcrumbs-max' => 'Не более 20 «хлебных крошек»',
+	'prefs-breadcrumbs-numberofcrumbs-max' => 'Не более 20 «хлебных крошек»', # Fuzzy
 	'prefs-breadcrumbs-namespaces' => 'Включить пространства имен в навигационную цепочку',
 	'prefs-breadcrumbs-filter-duplicates' => 'Отфильтровать неоднократно посещенные страницы',
 	'prefs-breadcrumbs-preceding-text' => 'Текст, появляющийся перед навигационной цепочкой',
 );
 
-/** Sakha (саха тыла) */
+/** Sakha (саха тыла)
+ */
 $messages['sah'] = array(
 	'breadcrumbs-desc' => 'Кыттааччылар биики устун хамсыылларын көрдөрөр',
 );
@@ -787,7 +817,8 @@ $messages['shi'] = array(
 	'breadcrumbs-desc' => 'Ar immala aɣaras imsxdamn ɣ wiki',
 );
 
-/** Slovak (slovenčina) */
+/** Slovak (slovenčina)
+ */
 $messages['sk'] = array(
 	'breadcrumbs-desc' => 'Zobrazí cestu používateľa vo wiki',
 );
@@ -799,32 +830,38 @@ $messages['sl'] = array(
 	'breadcrumbs-desc' => 'Prikaže uporabnikovo pot skozi wiki',
 );
 
-/** Albanian (shqip) */
+/** Albanian (shqip)
+ */
 $messages['sq'] = array(
 	'breadcrumbs-desc' => 'Tregon rrugën e përdoruesit nëpër wiki',
 );
 
-/** Serbian (Cyrillic script) (српски (ћирилица)‎) */
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
+ */
 $messages['sr-ec'] = array(
 	'breadcrumbs-desc' => 'Показује путање корисника кроз Вики',
 );
 
-/** Serbian (Latin script) (srpski (latinica)‎) */
+/** Serbian (Latin script) (srpski (latinica)‎)
+ */
 $messages['sr-el'] = array(
 	'breadcrumbs-desc' => 'Pokazuje putanje korisnika kroz Viki',
 );
 
-/** Seeltersk (Seeltersk) */
+/** Seeltersk (Seeltersk)
+ */
 $messages['stq'] = array(
 	'breadcrumbs-desc' => 'Wiest dän Wai fon dän Benutser truch dät Wiki',
 );
 
-/** Sundanese (Basa Sunda) */
+/** Sundanese (Basa Sunda)
+ */
 $messages['su'] = array(
 	'breadcrumbs-desc' => 'Témbongkeun tapak pamaké sapanjang wiki',
 );
 
-/** Swedish (svenska) */
+/** Swedish (svenska)
+ */
 $messages['sv'] = array(
 	'breadcrumbs-desc' => 'Visar användarens väg genom wikin',
 );
@@ -850,12 +887,14 @@ $messages['tet'] = array(
 	'breadcrumbs-desc' => "Hatudu dalan uza-na'in nian husi wiki.",
 );
 
-/** Tajik (Cyrillic script) (тоҷикӣ) */
+/** Tajik (Cyrillic script) (тоҷикӣ)
+ */
 $messages['tg-cyrl'] = array(
 	'breadcrumbs-desc' => 'Роҳи корбар тариқи викиро нишон медиҳад',
 );
 
-/** Tajik (Latin script) (tojikī) */
+/** Tajik (Latin script) (tojikī)
+ */
 $messages['tg-latn'] = array(
 	'breadcrumbs-desc' => 'Rohi korbar tariqi vikiro nişon medihad',
 );
@@ -891,17 +930,20 @@ $messages['tr'] = array(
 	'breadcrumbs-desc' => 'Vikide kullanıcıların konumunu gösterir',
 );
 
-/** Ukrainian (українська) */
+/** Ukrainian (українська)
+ */
 $messages['uk'] = array(
 	'breadcrumbs-desc' => 'Показує шлях користувачів по вікі',
 );
 
-/** vèneto (vèneto) */
+/** vèneto (vèneto)
+ */
 $messages['vec'] = array(
 	'breadcrumbs-desc' => 'Mostra el percorso dei utenti atraverso la wiki',
 );
 
-/** Veps (vepsän kel’) */
+/** Veps (vepsän kel’)
+ */
 $messages['vep'] = array(
 	'breadcrumbs-desc' => 'Ozutab kävuatajiden matkad Wikidme',
 );
@@ -913,12 +955,14 @@ $messages['vi'] = array(
 	'breadcrumbs-desc' => 'Hiển thị lối đến trang wiki',
 );
 
-/** Volapük (Volapük) */
+/** Volapük (Volapük)
+ */
 $messages['vo'] = array(
 	'breadcrumbs-desc' => 'Jonön gebanaluvegi da vük',
 );
 
-/** Cantonese (粵語) */
+/** Cantonese (粵語)
+ */
 $messages['yue'] = array(
 	'breadcrumbs-desc' => '顯示用戶響呢個wiki嘅路徑。',
 );
@@ -936,4 +980,3 @@ $messages['zh-hans'] = array(
 $messages['zh-hant'] = array(
 	'breadcrumbs-desc' => '顯示使用者在這個網站的軌跡。',
 );
-
