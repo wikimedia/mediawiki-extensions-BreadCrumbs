@@ -20,12 +20,12 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 
 # Register extension credits:
 $wgExtensionCredits['other'][] = array(
-	'path'           => __FILE__,
-	'name'           => 'BreadCrumbs',
+	'path' => __FILE__,
+	'name' => 'BreadCrumbs',
 	'descriptionmsg' => 'breadcrumbs-desc',
-	'version'	 => '0.3.1',
-	'author'         => array( 'Manuel Schneider', '[http://milcord.com Tony Boyles, Milcord llc]' ),
-	'url'            => 'https://www.mediawiki.org/wiki/Extension:BreadCrumbs',
+	'version' => '0.3.2',
+	'author' => array( 'Manuel Schneider', '[http://milcord.com Tony Boyles, Milcord llc]' ),
+	'url' => 'https://www.mediawiki.org/wiki/Extension:BreadCrumbs',
 );
 
 # Default Options:
