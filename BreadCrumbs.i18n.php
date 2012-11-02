@@ -580,7 +580,7 @@ $messages['mg'] = array(
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
-	'breadcrumbs-desc' => 'Додава траги од трошки под лентата со јазичиња',
+	'breadcrumbs-desc' => 'Става траги од трошки под лентата со јазичиња',
 	'prefs-breadcrumbs-separator' => 'Одделувач на навигациската патека',
 	'prefs-breadcrumbs-separator-max' => 'Можете да внесете највеќе 2 знака.',
 	'prefs-breadcrumbs' => 'Трошки',
