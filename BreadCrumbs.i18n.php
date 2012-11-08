@@ -952,7 +952,7 @@ $messages['vep'] = array(
  * @author Minh Nguyen
  */
 $messages['vi'] = array(
-	'breadcrumbs-desc' => 'Hiển thị lối đến trang wiki',
+	'breadcrumbs-desc' => 'Hiển thị đường dẫn đến trang',
 );
 
 /** Volapük (Volapük)
