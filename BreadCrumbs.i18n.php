@@ -604,6 +604,7 @@ $messages['mr'] = array(
  */
 $messages['ms'] = array(
 	'breadcrumbs-desc' => 'Menunjukkan laluan melalui wiki kepada pengguna',
+	'prefs-breadcrumbs-preceding-text-max' => 'Maksimum 30 aksara boleh diisikan.',
 );
 
 /** Maltese (Malti)
