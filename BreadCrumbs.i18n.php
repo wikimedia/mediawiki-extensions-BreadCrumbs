@@ -604,6 +604,15 @@ $messages['mr'] = array(
  */
 $messages['ms'] = array(
 	'breadcrumbs-desc' => 'Menunjukkan laluan melalui wiki kepada pengguna',
+	'prefs-breadcrumbs-separator' => 'Pengasing serbuk roti',
+	'prefs-breadcrumbs-separator-max' => 'Maksimum 2 aksara boleh diisikan.',
+	'prefs-breadcrumbs' => 'Serbuk Roti',
+	'prefs-breadcrumbs-showcrumbs' => 'Paparkan serbuk roti',
+	'prefs-breadcrumbs-numberofcrumbs' => 'Bilangan serbuk roti',
+	'prefs-breadcrumbs-numberofcrumbs-max' => 'Maksimum 20 serbuk roti boleh ditunjukkan.',
+	'prefs-breadcrumbs-namespaces' => 'Sertakan Ruang Nama di dalam serbuk roti',
+	'prefs-breadcrumbs-filter-duplicates' => 'Tapis halaman-halaman yang dikunjungi berulang-ulang',
+	'prefs-breadcrumbs-preceding-text' => 'Teks yang hendak dipaparkan sebelum serbuk roti',
 	'prefs-breadcrumbs-preceding-text-max' => 'Maksimum 30 aksara boleh diisikan.',
 );
 
@@ -932,9 +941,20 @@ $messages['tr'] = array(
 );
 
 /** Ukrainian (українська)
+ * @author Base
  */
 $messages['uk'] = array(
 	'breadcrumbs-desc' => 'Показує шлях користувачів по вікі',
+	'prefs-breadcrumbs-separator' => 'Розділювач хлібних крихт',
+	'prefs-breadcrumbs-separator-max' => 'Максимум 2 символи може бути введено.',
+	'prefs-breadcrumbs' => 'Хлібні крихти',
+	'prefs-breadcrumbs-showcrumbs' => 'Показувати хлібні крихти',
+	'prefs-breadcrumbs-numberofcrumbs' => 'Число хлібних крихт',
+	'prefs-breadcrumbs-numberofcrumbs-max' => 'Може бути показано не більше 20 хлібних крихт.',
+	'prefs-breadcrumbs-namespaces' => 'Включати простір назв до хлібних крихт',
+	'prefs-breadcrumbs-filter-duplicates' => 'Фільтрувати повторно відвідані сторінки',
+	'prefs-breadcrumbs-preceding-text' => 'Текст, що показується перед хлібними крихтами',
+	'prefs-breadcrumbs-preceding-text-max' => 'Може бути введено не більше 30 символів.',
 );
 
 /** vèneto (vèneto)
