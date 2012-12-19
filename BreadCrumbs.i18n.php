@@ -37,7 +37,7 @@ $messages['en'] = array(
  * @author The Evil IP address
  */
 $messages['qqq'] = array(
-	'breadcrumbs-desc' => '{{desc}}',
+	'breadcrumbs-desc' => '{{desc|name=Bread Crumbs|url=http://www.mediawiki.org/wiki/Extension:BreadCrumbs}}',
 	'prefs-breadcrumbs-separator' => 'This is a user preference option (text field) appearing on [[Special:Preferences#mw-prefsection-rendering|Special:Preferences / Appearance]]. The user may enter the separator to be used between the breadcrumbs.',
 	'prefs-breadcrumbs-separator-max' => 'This is an information message appearing on [[Special:Preferences#mw-prefsection-rendering|Special:Preferences / Appearance]], explaining how many characters may be entered as {{msg-mw|Prefs-breadcrumbs-separator}}.',
 	'prefs-breadcrumbs' => 'This is the section header on [[Special:Preferences#mw-prefsection-rendering|Special:Preferences / Appearance]] containing the user preference options for this extension.',
