@@ -771,13 +771,14 @@ $messages['pt'] = array(
 
 /** Brazilian Portuguese (português do Brasil)
  * @author Giro720
+ * @author 555
  */
 $messages['pt-br'] = array(
 	'breadcrumbs-desc' => 'Adiciona o percurso até a página corrente, por baixo da barra de separadores',
 	'prefs-breadcrumbs' => 'Percurso de Navegação',
 	'prefs-breadcrumbs-showcrumbs' => 'Mostrar percurso de navegação',
 	'prefs-breadcrumbs-numberofcrumbs' => 'Número de passos',
-	'prefs-breadcrumbs-numberofcrumbs-max' => 'No máximo 20 passos', # Fuzzy
+	'prefs-breadcrumbs-numberofcrumbs-max' => 'Exibir no máximo 20 passos.',
 );
 
 /** Tarifit (Tarifit)
