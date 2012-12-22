@@ -157,9 +157,14 @@ $messages['ca'] = array(
 );
 
 /** Czech (česky)
+ * @author Vks
  */
 $messages['cs'] = array(
 	'breadcrumbs-desc' => 'Zobrazí cestu uživatele ve wiki',
+	'prefs-breadcrumbs-separator-max' => 'Maximálně mohou být zadány 2 znaky.',
+	'prefs-breadcrumbs' => 'Drobky chleba',
+	'prefs-breadcrumbs-showcrumbs' => 'Zobrazit drobky chleba',
+	'prefs-breadcrumbs-numberofcrumbs' => 'Počet drobků chleba',
 );
 
 /** Welsh (Cymraeg)
@@ -213,9 +218,11 @@ $messages['dsb'] = array(
 );
 
 /** Greek (Ελληνικά)
+ * @author ZaDiak
  */
 $messages['el'] = array(
 	'breadcrumbs-desc' => 'Υποδεικνύει ποιες σελίδες επισκέφθηκε ο εκάστοτε χρήστης σε αυτό το βίκι',
+	'prefs-breadcrumbs-separator-max' => 'Είναι δυνατόν να εισαχθούν το μέγιστο 2 χαρακτήρες.',
 );
 
 /** Esperanto (Esperanto)
@@ -542,6 +549,7 @@ $messages['kw'] = array(
  */
 $messages['lb'] = array(
 	'breadcrumbs-desc' => "Setzt eng Lëscht vun Navigatiounslinken ënnert d'Läischt vun den Navigatiounsongleten derbäi",
+	'prefs-breadcrumbs-separator-max' => 'Maximal 2 Zeeche kënne saiséiert ginn.',
 	'prefs-breadcrumbs' => 'Navigatiounslinken (bread crumbs)',
 	'prefs-breadcrumbs-showcrumbs' => 'Navigatiounslinken (bread crumbs) weisen',
 	'prefs-breadcrumbs-numberofcrumbs' => 'Zuel vun den Navigatiounslinken (bread crumbs)',
@@ -788,9 +796,11 @@ $messages['rif'] = array(
 );
 
 /** Romanian (română)
+ * @author Firilacroco
  */
 $messages['ro'] = array(
 	'breadcrumbs-desc' => 'Arată calea utilizatorilor prin wiki',
+	'prefs-breadcrumbs-preceding-text-max' => 'Un maximum de 30 de caractere poate fi introdus.',
 );
 
 /** tarandíne (tarandíne)
@@ -826,6 +836,13 @@ $messages['sah'] = array(
  */
 $messages['shi'] = array(
 	'breadcrumbs-desc' => 'Ar immala aɣaras imsxdamn ɣ wiki',
+);
+
+/** Sinhala (සිංහල)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['si'] = array(
+	'prefs-breadcrumbs' => 'පාන් කැබැලි',
 );
 
 /** Slovak (slovenčina)
