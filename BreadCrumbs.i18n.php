@@ -265,9 +265,11 @@ $messages['fa'] = array(
 
 /** Finnish (suomi)
  * @author Nike
+ * @author Stryn
  */
 $messages['fi'] = array(
 	'breadcrumbs-desc' => 'Näyttää wikissä kuljetun reitin.',
+	'prefs-breadcrumbs-preceding-text-max' => 'Voit syöttää enintään 30 merkkiä.',
 );
 
 /** French (français)
@@ -432,10 +434,11 @@ $messages['ia'] = array(
  */
 $messages['id'] = array(
 	'breadcrumbs-desc' => 'Menambahkan jejak remahroti di bawah kotak tab',
+	'prefs-breadcrumbs-separator' => 'Pemisah remah roti',
 	'prefs-breadcrumbs' => 'Remah Roti',
 	'prefs-breadcrumbs-showcrumbs' => 'Tampilkan remah roti',
 	'prefs-breadcrumbs-numberofcrumbs' => 'Jumlah remah roti',
-	'prefs-breadcrumbs-numberofcrumbs-max' => 'Maksimum 20 remah roti', # Fuzzy
+	'prefs-breadcrumbs-numberofcrumbs-max' => 'Hasil maksimum 20 remah roti.',
 );
 
 /** Igbo (Igbo)
@@ -839,10 +842,11 @@ $messages['shi'] = array(
 );
 
 /** Sinhala (සිංහල)
+ * @author Singhalawap
  * @author පසිඳු කාවින්ද
  */
 $messages['si'] = array(
-	'prefs-breadcrumbs' => 'පාන් කැබැලි',
+	'prefs-breadcrumbs' => 'පාං කැබැලි',
 );
 
 /** Slovak (slovenčina)
@@ -889,16 +893,21 @@ $messages['su'] = array(
 );
 
 /** Swedish (svenska)
+ * @author Scofie
  */
 $messages['sv'] = array(
 	'breadcrumbs-desc' => 'Visar användarens väg genom wikin',
+	'prefs-breadcrumbs' => 'Brödsmulor',
+	'prefs-breadcrumbs-showcrumbs' => 'Visa brödsmulor',
 );
 
 /** Tamil (தமிழ்)
+ * @author Karthi.dr
  * @author TRYPPN
  */
 $messages['ta'] = array(
 	'breadcrumbs-desc' => 'பயனர்களின் தொடர்பு வழிகளை விக்கியின் மூலம் காட்டுகிறது',
+	'prefs-breadcrumbs-preceding-text-max' => 'அதிகபட்சம் 30 எழுத்துருக்கள் இடப்படலாம்.',
 );
 
 /** Telugu (తెలుగు)
