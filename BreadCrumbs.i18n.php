@@ -218,11 +218,14 @@ $messages['dsb'] = array(
 );
 
 /** Greek (Ελληνικά)
+ * @author Glavkos
  * @author ZaDiak
  */
 $messages['el'] = array(
 	'breadcrumbs-desc' => 'Υποδεικνύει ποιες σελίδες επισκέφθηκε ο εκάστοτε χρήστης σε αυτό το βίκι',
 	'prefs-breadcrumbs-separator-max' => 'Είναι δυνατόν να εισαχθούν το μέγιστο 2 χαρακτήρες.',
+	'prefs-breadcrumbs' => 'Ψίχουλα ψωμιού',
+	'prefs-breadcrumbs-numberofcrumbs' => 'Αριθμός από ψίχουλα ψωμιού',
 );
 
 /** Esperanto (Esperanto)
@@ -757,10 +760,16 @@ $messages['pl'] = array(
  */
 $messages['pms'] = array(
 	'breadcrumbs-desc' => 'A gionta com na trassa ëd farin-a sota a la tichëtta dla bara',
+	'prefs-breadcrumbs-separator' => 'Separador dle ampovrà',
+	'prefs-breadcrumbs-separator-max' => 'Al pi 2 caràter a peulo esse anserì.',
 	'prefs-breadcrumbs' => 'Ampovrà ëd farin-a',
 	'prefs-breadcrumbs-showcrumbs' => 'Visualisé la bara ëd navigassion',
 	'prefs-breadcrumbs-numberofcrumbs' => "Nùmer d'ampovrà",
-	'prefs-breadcrumbs-numberofcrumbs-max' => 'Al pi 20 ampovrà', # Fuzzy
+	'prefs-breadcrumbs-numberofcrumbs-max' => 'Al pi 20 ampovrà a peulo esse mostà.',
+	'prefs-breadcrumbs-namespaces' => "Anclude Spassi Nominaj ant j'ampovrà",
+	'prefs-breadcrumbs-filter-duplicates' => 'Filtra le pagine ripetivament visità',
+	'prefs-breadcrumbs-preceding-text' => 'Test da mosté prima dle ampovrà',
+	'prefs-breadcrumbs-preceding-text-max' => 'Al pi 30 caràter a peulo esse anserì.',
 );
 
 /** Portuguese (português)
@@ -814,18 +823,21 @@ $messages['roa-tara'] = array(
 
 /** Russian (русский)
  * @author DCamer
+ * @author Kaganer
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(
 	'breadcrumbs-desc' => 'Добавляет навигационный путь по сайту («хлебные крошки») под панель вкладок',
 	'prefs-breadcrumbs-separator' => 'Разделитель навигационной цепочки',
+	'prefs-breadcrumbs-separator-max' => 'Можно ввести не более 2 символов.',
 	'prefs-breadcrumbs' => 'Хлебные крошки',
 	'prefs-breadcrumbs-showcrumbs' => 'Показывать «хлебные крошки»',
-	'prefs-breadcrumbs-numberofcrumbs' => 'Число «хлебных крошек»',
-	'prefs-breadcrumbs-numberofcrumbs-max' => 'Не более 20 «хлебных крошек»', # Fuzzy
+	'prefs-breadcrumbs-numberofcrumbs' => 'Число элементов навигационной цепочки (т.н. «хлебных крошек»)',
+	'prefs-breadcrumbs-numberofcrumbs-max' => 'Может отображаться не более 20 «хлебных крошек».',
 	'prefs-breadcrumbs-namespaces' => 'Включить пространства имен в навигационную цепочку',
 	'prefs-breadcrumbs-filter-duplicates' => 'Отфильтровать неоднократно посещенные страницы',
 	'prefs-breadcrumbs-preceding-text' => 'Текст, появляющийся перед навигационной цепочкой',
+	'prefs-breadcrumbs-preceding-text-max' => 'Можно ввести не более 30 символов.',
 );
 
 /** Sakha (саха тыла)
@@ -846,7 +858,14 @@ $messages['shi'] = array(
  * @author පසිඳු කාවින්ද
  */
 $messages['si'] = array(
+	'prefs-breadcrumbs-separator' => 'පාන් කැබලි විභේදකය',
+	'prefs-breadcrumbs-separator-max' => 'උපරිම වශයෙන් අක්ෂර 2 යෙදිය යුතුය.',
 	'prefs-breadcrumbs' => 'පාං කැබැලි',
+	'prefs-breadcrumbs-showcrumbs' => 'පාන් කැබලි පෙන්වන්න',
+	'prefs-breadcrumbs-numberofcrumbs' => 'පාන් කැබලි සංඛ්‍යාව',
+	'prefs-breadcrumbs-numberofcrumbs-max' => 'උපරිම වශයෙන් පාන් කැබලි 20 පෙන්විය යුතුය.',
+	'prefs-breadcrumbs-namespaces' => 'පාන් කැබලි වල නාමඅවකාශ අඩංගු කරන්න',
+	'prefs-breadcrumbs-preceding-text-max' => 'උපරිම වශයෙන් අක්ෂර 30 යෙදිය යුතුය.',
 );
 
 /** Slovak (slovenčina)
@@ -1017,9 +1036,11 @@ $messages['yue'] = array(
 
 /** Simplified Chinese (中文（简体）‎)
  * @author Gaoxuewei
+ * @author Hzy980512
  */
 $messages['zh-hans'] = array(
 	'breadcrumbs-desc' => '显示用户在这个网站的轨迹。',
+	'prefs-breadcrumbs-separator-max' => '最多可输入2个字母',
 );
 
 /** Traditional Chinese (中文（繁體）‎)
