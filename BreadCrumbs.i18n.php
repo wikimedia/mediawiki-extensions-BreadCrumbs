@@ -269,9 +269,19 @@ $messages['fa'] = array(
 /** Finnish (suomi)
  * @author Nike
  * @author Stryn
+ * @author VezonThunder
  */
 $messages['fi'] = array(
 	'breadcrumbs-desc' => 'Näyttää wikissä kuljetun reitin.',
+	'prefs-breadcrumbs-separator' => 'Navigaatioreitin sivujen erotin',
+	'prefs-breadcrumbs-separator-max' => 'Voidaan syöttää enintään 2 merkkiä.',
+	'prefs-breadcrumbs' => 'Navigaatioreitti',
+	'prefs-breadcrumbs-showcrumbs' => 'Näytä navigaatioreitti',
+	'prefs-breadcrumbs-numberofcrumbs' => 'Navigaatioreitin pituus (sivua)',
+	'prefs-breadcrumbs-numberofcrumbs-max' => 'Enintään 20 sivun pituinen navigaatioreitti voidaan näyttää.',
+	'prefs-breadcrumbs-namespaces' => 'Näytä nimiavaruudet navigaatioreitissä',
+	'prefs-breadcrumbs-filter-duplicates' => 'Älä näytä toistuvasti vierailtuja sivuja',
+	'prefs-breadcrumbs-preceding-text' => 'Ennen navigaatioreittiä näytettävä teksti',
 	'prefs-breadcrumbs-preceding-text-max' => 'Voit syöttää enintään 30 merkkiä.',
 );
 
@@ -865,6 +875,7 @@ $messages['si'] = array(
 	'prefs-breadcrumbs-numberofcrumbs' => 'පාන් කැබලි සංඛ්‍යාව',
 	'prefs-breadcrumbs-numberofcrumbs-max' => 'උපරිම වශයෙන් පාන් කැබලි 20 පෙන්විය යුතුය.',
 	'prefs-breadcrumbs-namespaces' => 'පාන් කැබලි වල නාමඅවකාශ අඩංගු කරන්න',
+	'prefs-breadcrumbs-preceding-text' => 'පාන් කැබලි වලට පෙර දිස් විය යුතු පාඨ',
 	'prefs-breadcrumbs-preceding-text-max' => 'උපරිම වශයෙන් අක්ෂර 30 යෙදිය යුතුය.',
 );
 
@@ -913,9 +924,11 @@ $messages['su'] = array(
 
 /** Swedish (svenska)
  * @author Scofie
+ * @author WikiPhoenix
  */
 $messages['sv'] = array(
 	'breadcrumbs-desc' => 'Visar användarens väg genom wikin',
+	'prefs-breadcrumbs-separator-max' => 'Högst 2 tecken kan anges.',
 	'prefs-breadcrumbs' => 'Brödsmulor',
 	'prefs-breadcrumbs-showcrumbs' => 'Visa brödsmulor',
 );
