@@ -253,6 +253,14 @@ $messages['es'] = array(
 	'prefs-breadcrumbs-preceding-text-max' => 'Puede introducir un máximo de 30 caracteres.',
 );
 
+/** Estonian (eesti)
+ * @author Avjoska
+ */
+$messages['et'] = array(
+	'prefs-breadcrumbs-separator-max' => 'Kuni 2 tähemärki võib sisestada.',
+	'prefs-breadcrumbs-preceding-text-max' => 'Kuni 30 tähemärki võib sisestada.',
+);
+
 /** Basque (euskara)
  */
 $messages['eu'] = array(
@@ -732,9 +740,13 @@ $messages['oc'] = array(
 
 /** Oriya (ଓଡ଼ିଆ)
  * @author Ansumang
+ * @author Jnanaranjan Sahu
  */
 $messages['or'] = array(
 	'breadcrumbs-desc' => 'ଉଇକି ମାଧ୍ୟମରେ ବ୍ୟବହାରକାରୀଙ୍କ ମାର୍ଗ ଦେଖାଏ',
+	'prefs-breadcrumbs-separator-max' => 'ଅତ୍ୟଧିକ ଭାବେ ଦୁଇଟି ଅକ୍ଷର ଦିଆଯାଇପରିବ ।',
+	'prefs-breadcrumbs-filter-duplicates' => 'ବାରମ୍ବାର ଦେଖାଯାଇଥିବା ପୃଷ୍ଠାଗୁଡିକୁ ଛାଣିଦିଅନ୍ତୁ',
+	'prefs-breadcrumbs-preceding-text-max' => 'ଅତିବେଶିରେ ୩୦ଟି ଅକ୍ଷର ଲେଖାଯାଇପାରିବା ।',
 );
 
 /** Papiamento (Papiamentu)
