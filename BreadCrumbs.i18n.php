@@ -229,9 +229,16 @@ $messages['el'] = array(
 );
 
 /** Esperanto (Esperanto)
+ * @author Objectivesea
  */
 $messages['eo'] = array(
 	'breadcrumbs-desc' => 'Montras la vojon de uzanto tra la vikio',
+	'prefs-breadcrumbs-separator' => 'Panera apartaĵo',
+	'prefs-breadcrumbs' => 'Paneroj',
+	'prefs-breadcrumbs-showcrumbs' => 'Montri panerojn',
+	'prefs-breadcrumbs-numberofcrumbs' => 'Nombro de paneroj',
+	'prefs-breadcrumbs-numberofcrumbs-max' => 'Maksimume dudek paneroj eblas esti montrata.',
+	'prefs-breadcrumbs-namespaces' => 'Inkluzivi nomkadrojn interne de paneroj',
 );
 
 /** Spanish (español)
