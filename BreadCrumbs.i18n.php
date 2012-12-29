@@ -151,9 +151,11 @@ $messages['bs'] = array(
 );
 
 /** Catalan (català)
+ * @author Arnaugir
  */
 $messages['ca'] = array(
 	'breadcrumbs-desc' => 'Mostra el recorregut dels usuaris a través de la wiki',
+	'prefs-breadcrumbs-separator-max' => 'Es poden entrar un màxim de 2 caràcters.',
 );
 
 /** Czech (česky)
@@ -431,13 +433,20 @@ $messages['hsb'] = array(
 
 /** Hungarian (magyar)
  * @author Dani
+ * @author Dj
  */
 $messages['hu'] = array(
 	'breadcrumbs-desc' => 'Megjeleníti a felhasználó által a wikiben bejárt utat',
-	'prefs-breadcrumbs' => 'Bread Crumbs',
-	'prefs-breadcrumbs-showcrumbs' => 'Bread crumb megjelenítése',
-	'prefs-breadcrumbs-numberofcrumbs' => 'Bread crumbok száma',
-	'prefs-breadcrumbs-numberofcrumbs-max' => 'Maximum 20 bread crumb', # Fuzzy
+	'prefs-breadcrumbs-separator' => 'Zsemlemorzsák elválasztó jele',
+	'prefs-breadcrumbs-separator-max' => 'Legfeljebb 2 karaktert lehet beírni.',
+	'prefs-breadcrumbs' => 'Zsemlemorzsa',
+	'prefs-breadcrumbs-showcrumbs' => 'Zsemlemorzsák megjelenítése',
+	'prefs-breadcrumbs-numberofcrumbs' => 'Zsemlemorzsák száma',
+	'prefs-breadcrumbs-numberofcrumbs-max' => 'Legfeljebb 20 zsemlemorzsa jeleníthető meg.',
+	'prefs-breadcrumbs-namespaces' => 'Névtér hozzávétele a zsemlemorzsákhoz',
+	'prefs-breadcrumbs-filter-duplicates' => 'Ismételten meglátogatott oldalak szűrése',
+	'prefs-breadcrumbs-preceding-text' => 'Zsemlemorzsák előtt megjelenítendő szöveg',
+	'prefs-breadcrumbs-preceding-text-max' => 'Legfeljebb 30 karaktert lehet beírni.',
 );
 
 /** Interlingua (interlingua)
