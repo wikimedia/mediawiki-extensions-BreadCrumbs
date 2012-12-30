@@ -84,9 +84,11 @@ $messages['ast'] = array(
 
 /** Bashkir (башҡортса)
  * @author Assele
+ * @author Ләйсән
  */
 $messages['ba'] = array(
 	'breadcrumbs-desc' => 'Ҡатнашыусыларҙың вики проект буйлап үткән юлын күрһәтә',
+	'prefs-breadcrumbs' => 'Икмәк валсыҡтары',
 );
 
 /** Bavarian (Boarisch)
@@ -326,10 +328,11 @@ $messages['fr'] = array(
  */
 $messages['frp'] = array(
 	'breadcrumbs-desc' => 'Montre lo lim de les dèrriéres pâges que l’usanciér at visitâs dens lo vouiqui',
+	'prefs-breadcrumbs-separator-max' => 'Por lo més 2 caractèros pôvont étre buchiês.',
 	'prefs-breadcrumbs' => '« Chaplons de pan »',
 	'prefs-breadcrumbs-showcrumbs' => 'Fâre vêre los « chaplons de pan »',
 	'prefs-breadcrumbs-numberofcrumbs' => 'Nombro de « chaplons de pan »',
-	'prefs-breadcrumbs-numberofcrumbs-max' => 'U més 20 « chaplons de pan »', # Fuzzy
+	'prefs-breadcrumbs-numberofcrumbs-max' => 'Por lo més 20 « chaplons de pan » pôvont étre montrâs.',
 );
 
 /** Western Frisian (Frysk)
