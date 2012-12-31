@@ -850,9 +850,11 @@ $messages['rif'] = array(
 
 /** Romanian (română)
  * @author Firilacroco
+ * @author Minisarm
  */
 $messages['ro'] = array(
 	'breadcrumbs-desc' => 'Arată calea utilizatorilor prin wiki',
+	'prefs-breadcrumbs-separator-max' => 'Pot fi introduse maximum 2 caractere.',
 	'prefs-breadcrumbs-preceding-text-max' => 'Un maximum de 30 de caractere poate fi introdus.',
 );
 
@@ -930,9 +932,16 @@ $messages['sq'] = array(
 );
 
 /** Serbian (Cyrillic script) (српски (ћирилица)‎)
+ * @author Rancher
  */
 $messages['sr-ec'] = array(
 	'breadcrumbs-desc' => 'Показује путање корисника кроз Вики',
+	'prefs-breadcrumbs-separator-max' => 'Можете да унесете најмање два знака.',
+	'prefs-breadcrumbs' => 'Мрвице',
+	'prefs-breadcrumbs-showcrumbs' => 'Приказуј мрвице',
+	'prefs-breadcrumbs-numberofcrumbs' => 'Број мрвица',
+	'prefs-breadcrumbs-numberofcrumbs-max' => 'Може се приказати највише двадесет мрвица.',
+	'prefs-breadcrumbs-preceding-text-max' => 'Можете да унесете највише тридесет знакова.',
 );
 
 /** Serbian (Latin script) (srpski (latinica)‎)
