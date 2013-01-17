@@ -558,9 +558,20 @@ $messages['kn'] = array(
 
 /** Korean (한국어)
  * @author Klutzy
+ * @author 아라
  */
 $messages['ko'] = array(
-	'breadcrumbs-desc' => '사용자의 최근 방문 문서 목록을 표시하는 기능',
+	'breadcrumbs-desc' => '문서에 빵 부스러기 목록의 발자취를 추가',
+	'prefs-breadcrumbs-separator' => '빵 부스러기 구분자',
+	'prefs-breadcrumbs-separator-max' => '최대 2글자를 입력할 수 있습니다.',
+	'prefs-breadcrumbs' => '빵 부스러기',
+	'prefs-breadcrumbs-showcrumbs' => '빵 부스러기 보기',
+	'prefs-breadcrumbs-numberofcrumbs' => '빵 부스러기의 수',
+	'prefs-breadcrumbs-numberofcrumbs-max' => '최대 빵 부스러기 20개를 보여줄 수 있습니다.',
+	'prefs-breadcrumbs-namespaces' => '빵 부스러기에 이름공간 포함',
+	'prefs-breadcrumbs-filter-duplicates' => '반복해서 방문한 문서 필터링',
+	'prefs-breadcrumbs-preceding-text' => '빵 부스러기 앞에 나타낼 텍스트',
+	'prefs-breadcrumbs-preceding-text-max' => '최대 30글자를 입력할 수 있습니다.',
 );
 
 /** Colognian (Ripoarisch)
