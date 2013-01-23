@@ -870,9 +870,11 @@ $messages['ro'] = array(
 );
 
 /** tarandíne (tarandíne)
+ * @author Joetaras
  */
 $messages['roa-tara'] = array(
 	'breadcrumbs-desc' => 'Fà vedè le percorse de le utinde attraverse le Uicchipèdie',
+	'prefs-breadcrumbs-preceding-text-max' => "'Nu massime de 30 carattere ponne essere 'nzerite.",
 );
 
 /** Russian (русский)
