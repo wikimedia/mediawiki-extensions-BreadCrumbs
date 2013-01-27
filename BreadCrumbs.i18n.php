@@ -713,7 +713,7 @@ $messages['nds'] = array(
 	'breadcrumbs-desc' => 'Wiest den Padd vun’n Bruker dör dat Wiki',
 );
 
-/** Nedersaksisch (Nedersaksisch)
+/** Nedersaksies (Nedersaksies)
  * @author Servien
  */
 $messages['nds-nl'] = array(
