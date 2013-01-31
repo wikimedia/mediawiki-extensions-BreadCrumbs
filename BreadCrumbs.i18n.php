@@ -618,10 +618,12 @@ $messages['li'] = array(
 );
 
 /** Lithuanian (lietuvių)
+ * @author Audriusa
  * @author Garas
  */
 $messages['lt'] = array(
 	'breadcrumbs-desc' => 'Rodo naudotojo kelią svetainėje',
+	'prefs-breadcrumbs-preceding-text-max' => 'Ne daugiau 30 spaudos ženklų.',
 );
 
 /** Latvian (latviešu)
