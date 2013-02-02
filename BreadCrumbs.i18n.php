@@ -543,6 +543,13 @@ $messages['jv'] = array(
 	'breadcrumbs-desc' => 'Nuduhaké para panganggo dalan ngliwati wiki',
 );
 
+/** Georgian (ქართული)
+ * @author David1010
+ */
+$messages['ka'] = array(
+	'prefs-breadcrumbs-preceding-text-max' => 'შესაძლებელია მხოლოდ 30-მდე სიმბოლოს შეყვანა.',
+);
+
 /** Khmer (ភាសាខ្មែរ)
  * @author Thearith
  */
