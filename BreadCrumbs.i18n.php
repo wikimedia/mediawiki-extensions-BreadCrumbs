@@ -1111,11 +1111,13 @@ $messages['yue'] = array(
 
 /** Simplified Chinese (中文（简体）‎)
  * @author Gaoxuewei
+ * @author Hydra
  * @author Hzy980512
  */
 $messages['zh-hans'] = array(
 	'breadcrumbs-desc' => '显示用户在这个网站的轨迹。',
 	'prefs-breadcrumbs-separator-max' => '最多可输入2个字母',
+	'prefs-breadcrumbs-preceding-text-max' => '最多可输入30个字母。',
 );
 
 /** Traditional Chinese (中文（繁體）‎)
