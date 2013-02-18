@@ -140,6 +140,7 @@ $messages['bn'] = array(
 );
 
 /** Breton (brezhoneg)
+ * @author Fohanno
  * @author Fulup
  * @author Y-M D
  */
@@ -148,7 +149,7 @@ $messages['br'] = array(
 	'prefs-breadcrumbs' => 'Barrenn verdeiñ',
 	'prefs-breadcrumbs-showcrumbs' => 'Diskouez ar varenn merdeiñ',
 	'prefs-breadcrumbs-numberofcrumbs' => 'Niver a liammoù merdeiñ',
-	'prefs-breadcrumbs-numberofcrumbs-max' => "D'ar muiañ 20 liamm merdeiñ", # Fuzzy
+	'prefs-breadcrumbs-numberofcrumbs-max' => "20 liamm merdeiñ a c'hall bezañ diskouzet d'ar muiañ.",
 );
 
 /** Bosnian (bosanski)
@@ -1123,10 +1124,19 @@ $messages['yue'] = array(
  * @author Gaoxuewei
  * @author Hydra
  * @author Hzy980512
+ * @author Yfdyh000
  */
 $messages['zh-hans'] = array(
 	'breadcrumbs-desc' => '显示用户在这个网站的轨迹。',
+	'prefs-breadcrumbs-separator' => '面包屑分隔器',
 	'prefs-breadcrumbs-separator-max' => '最多可输入2个字母',
+	'prefs-breadcrumbs' => '面包屑',
+	'prefs-breadcrumbs-showcrumbs' => '显示面包屑',
+	'prefs-breadcrumbs-numberofcrumbs' => '面包屑数量',
+	'prefs-breadcrumbs-numberofcrumbs-max' => '最多可以显示20个面包屑',
+	'prefs-breadcrumbs-namespaces' => '在面包屑中包含的命名空间',
+	'prefs-breadcrumbs-filter-duplicates' => '滤出多次访问过的页面',
+	'prefs-breadcrumbs-preceding-text' => '面包屑前出现的文字',
 	'prefs-breadcrumbs-preceding-text-max' => '最多可输入30个字母。',
 );
 
