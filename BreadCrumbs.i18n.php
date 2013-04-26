@@ -896,6 +896,7 @@ $messages['ro'] = array(
  */
 $messages['roa-tara'] = array(
 	'breadcrumbs-desc' => 'Fà vedè le percorse de le utinde attraverse le Uicchipèdie',
+	'prefs-breadcrumbs-separator-max' => 'Al messime 2 carattere puè mettere.',
 	'prefs-breadcrumbs-preceding-text-max' => "'Nu massime de 30 carattere ponne essere 'nzerite.",
 );
 
