@@ -723,7 +723,7 @@ $messages['nah'] = array(
 	'breadcrumbs-desc' => 'Tiquinttāz tlatequitiltilīlli in īoh huiquitoca',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  */
 $messages['nb'] = array(
 	'breadcrumbs-desc' => 'Viser brukerens sti gjennom wikien',
@@ -735,7 +735,7 @@ $messages['nds'] = array(
 	'breadcrumbs-desc' => 'Wiest den Padd vun’n Bruker dör dat Wiki',
 );
 
-/** Nedersaksies (Nedersaksies)
+/** Low Saxon (Netherlands) (Nedersaksies)
  * @author Servien
  */
 $messages['nds-nl'] = array(
@@ -767,7 +767,7 @@ $messages['nl'] = array(
 	'prefs-breadcrumbs-preceding-text-max' => 'Er kunnen maximum 30 tekens worden ingevoerd.',
 );
 
-/** Norwegian Nynorsk (norsk (nynorsk)‎)
+/** Norwegian Nynorsk (norsk nynorsk)
  */
 $messages['nn'] = array(
 	'breadcrumbs-desc' => 'Viser stigen til brukaren gjennom wikien',
@@ -790,7 +790,7 @@ $messages['oc'] = array(
 	'breadcrumbs-desc' => 'Aficha lo ligam de las darrièras paginas que l’utilizaire a visitadas dins lo wiki',
 );
 
-/** Oriya (ଓଡ଼ିଆ)
+/** Oriya (ଓଡ଼ିଆ)
  * @author Ansumang
  * @author Jnanaranjan Sahu
  */
