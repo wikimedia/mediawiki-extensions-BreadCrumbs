@@ -615,7 +615,7 @@ $messages['ksh'] = array(
  * @author Nrowe
  */
 $messages['kw'] = array(
-	'breadcrumbs-desc' => 'Y hwra diskwedhes fordh an devnydhyer dres an wiki',
+	'breadcrumbs-desc' => 'Diskwedhes fordh an devnydhyer dres an wiki',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
