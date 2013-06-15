@@ -1007,6 +1007,7 @@ $messages['su'] = array(
 );
 
 /** Swedish (svenska)
+ * @author Jopparn
  * @author Scofie
  * @author WikiPhoenix
  */
@@ -1015,6 +1016,7 @@ $messages['sv'] = array(
 	'prefs-breadcrumbs-separator-max' => 'Högst 2 tecken kan anges.',
 	'prefs-breadcrumbs' => 'Brödsmulor',
 	'prefs-breadcrumbs-showcrumbs' => 'Visa brödsmulor',
+	'prefs-breadcrumbs-preceding-text-max' => 'Maximalt 30 tecken kan anges.',
 );
 
 /** Tamil (தமிழ்)
