@@ -291,10 +291,12 @@ $messages['eu'] = array(
 
 /** Persian (فارسی)
  * @author Ebraminio
+ * @author Mahdiz
  * @author Mehran
  */
 $messages['fa'] = array(
 	'breadcrumbs-desc' => 'مسیر کاربران در ویکی نمایش می‌دهد',
+	'prefs-breadcrumbs-separator-max' => 'حداکثر 2 کاراکتر می‌تواند وارد شود.',
 	'prefs-breadcrumbs-preceding-text-max' => 'حداکثر 30 کاراکتر می‌تواند وارد شود.',
 );
 
