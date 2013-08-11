@@ -680,9 +680,14 @@ $messages['mk'] = array(
 );
 
 /** Marathi (मराठी)
+ * @author V.narsikar
  */
 $messages['mr'] = array(
 	'breadcrumbs-desc' => 'विकिमधील सदस्याचा मार्ग (पाथ) दर्शविते',
+	'prefs-breadcrumbs-separator-max' => 'जास्तीत जास्त दोन अक्षरे असावीत.',
+	'prefs-breadcrumbs' => 'भाकर-तुकडे',
+	'prefs-breadcrumbs-filter-duplicates' => 'भेट दिलेल्या पानांची- वारंवार गाळणी करा',
+	'prefs-breadcrumbs-preceding-text-max' => 'जास्तीत जास्त ३० अक्षरे टाकता येतील.',
 );
 
 /** Malay (Bahasa Melayu)
