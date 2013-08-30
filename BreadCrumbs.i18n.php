@@ -108,6 +108,23 @@ $messages['bar'] = array(
 	'breadcrumbs-desc' => "Zoagt in Weg vu dem Benutza duach's Wiki.",
 );
 
+/** Bikol Central (Bikol Central)
+ * @author Geopoet
+ */
+$messages['bcl'] = array(
+	'breadcrumbs-desc' => 'Minadugang nin tandaan kan mga rakdag nin tinapay sa pahina',
+	'prefs-breadcrumbs-separator' => 'Tagapabaranga kan rakdag nin tinapay',
+	'prefs-breadcrumbs-separator-max' => 'Pinakadakol na 2 na mga karakter an puwedeng maikakaag.',
+	'prefs-breadcrumbs' => 'Mga Rakdag nin Tinapay',
+	'prefs-breadcrumbs-showcrumbs' => 'Ipaghaya an mga rakdag nin tinapay',
+	'prefs-breadcrumbs-numberofcrumbs' => 'Bilang kan mga rakdag nin tinapay',
+	'prefs-breadcrumbs-numberofcrumbs-max' => 'Pinakadakol na 20 na mga rakdag nin tinapay an mapuwedeng maipagpapahiling.',
+	'prefs-breadcrumbs-namespaces' => 'Kabali an mga Espasyo-nin-Pangaran sa mga rakdag nin tinapay',
+	'prefs-breadcrumbs-filter-duplicates' => 'Salaon paoro-otro-pinagbisitang mga pahina',
+	'prefs-breadcrumbs-preceding-text' => 'An teksto maipahiling bago pa man an mga rakdag nin tinapay',
+	'prefs-breadcrumbs-preceding-text-max' => 'Pinakadakol na 30 na mga karakter an puwedeng maikakaag.',
+);
+
 /** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Wizardist
