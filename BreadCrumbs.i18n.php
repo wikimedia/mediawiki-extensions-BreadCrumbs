@@ -163,10 +163,12 @@ $messages['bn'] = array(
  */
 $messages['br'] = array(
 	'breadcrumbs-desc' => 'Ouzhpennañ a ra un heuliad liammoù merdeiñ dindan barrenn an ivinelloù',
+	'prefs-breadcrumbs-separator-max' => "2 arouezenn d'ar muiañ a c'hall bezañ ebarzhet.",
 	'prefs-breadcrumbs' => 'Barrenn verdeiñ',
 	'prefs-breadcrumbs-showcrumbs' => 'Diskouez ar varenn merdeiñ',
 	'prefs-breadcrumbs-numberofcrumbs' => 'Niver a liammoù merdeiñ',
 	'prefs-breadcrumbs-numberofcrumbs-max' => "20 liamm merdeiñ a c'hall bezañ diskouzet d'ar muiañ.",
+	'prefs-breadcrumbs-preceding-text-max' => "30 arouezenn d'ar muiañ a c'hall bezañ ebarzhet.",
 );
 
 /** Bosnian (bosanski)
