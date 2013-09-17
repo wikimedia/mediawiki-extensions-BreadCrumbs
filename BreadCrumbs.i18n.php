@@ -641,9 +641,10 @@ $messages['kw'] = array(
 
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
+ * @author Soued031
  */
 $messages['lb'] = array(
-	'breadcrumbs-desc' => "Setzt eng Lëscht vun Navigatiounslinken ënnert d'Läischt vun den Navigatiounsongleten derbäi",
+	'breadcrumbs-desc' => "Setzt eng Lëscht vun Navigatiounslinken ënner d'Läischt vun den Navigatiounsongleten derbäi",
 	'prefs-breadcrumbs-separator-max' => 'Maximal 2 Zeeche kënne saiséiert ginn.',
 	'prefs-breadcrumbs' => 'Navigatiounslinken (bread crumbs)',
 	'prefs-breadcrumbs-showcrumbs' => 'Navigatiounslinken (bread crumbs) weisen',
