@@ -128,7 +128,7 @@ function fnBreadCrumbsShowHook( $out, $parserOutput ) {
  * @param $defaultPreferences array
  * @return bool
  */
-function fnBreadCrumbsAddPreferences( $user, $defaultPreferences ) {
+function fnBreadCrumbsAddPreferences( $user, &$defaultPreferences ) {
 	global $wgBreadCrumbsAllowUPOs;
 
 	if ( $wgBreadCrumbsAllowUPOs ) {
