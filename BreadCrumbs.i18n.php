@@ -190,7 +190,7 @@ $messages['ca'] = array(
 	'prefs-breadcrumbs-separator-max' => 'Es poden entrar un màxim de 2 caràcters.',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Vks
  */
 $messages['cs'] = array(
