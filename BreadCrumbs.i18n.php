@@ -611,7 +611,7 @@ $messages['kn'] = array(
  * @author 아라
  */
 $messages['ko'] = array(
-	'breadcrumbs-desc' => '문서에 빵 부스러기 목록의 발자취를 추가',
+	'breadcrumbs-desc' => '문서에 빵 부스러기 목록의 발자취를 추가합니다',
 	'prefs-breadcrumbs-separator' => '빵 부스러기 구분자',
 	'prefs-breadcrumbs-separator-max' => '최대 2글자를 입력할 수 있습니다.',
 	'prefs-breadcrumbs' => '빵 부스러기',
