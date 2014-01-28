@@ -766,9 +766,20 @@ $messages['nah'] = array(
 );
 
 /** Norwegian Bokmål (norsk bokmål)
+ * @author Event
  */
 $messages['nb'] = array(
 	'breadcrumbs-desc' => 'Viser brukerens sti gjennom wikien',
+	'prefs-breadcrumbs-separator' => 'Sti-skilletegn',
+	'prefs-breadcrumbs-separator-max' => 'Maksimum 2 tegn kan brukes.',
+	'prefs-breadcrumbs' => 'Artikkelhierarki',
+	'prefs-breadcrumbs-showcrumbs' => 'Vis artikkelsti',
+	'prefs-breadcrumbs-numberofcrumbs' => 'Artikkelnivåer',
+	'prefs-breadcrumbs-numberofcrumbs-max' => 'Maksimum 20 artikkelnivåer kan vises.',
+	'prefs-breadcrumbs-namespaces' => 'Inkluder navnerom i artikkelhierarkiet',
+	'prefs-breadcrumbs-filter-duplicates' => 'Filtrer bort sider som inngår flere steder i hierarkiet',
+	'prefs-breadcrumbs-preceding-text' => 'Teksten som brukes foran artikkel-stien',
+	'prefs-breadcrumbs-preceding-text-max' => 'Maksimum 30 tegn kan brukes.',
 );
 
 /** Low German (Plattdüütsch)
