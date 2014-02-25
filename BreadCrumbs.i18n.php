@@ -1094,10 +1094,16 @@ $messages['ta'] = array(
 );
 
 /** Telugu (తెలుగు)
+ * @author Ravichandra
  * @author Veeven
  */
 $messages['te'] = array(
 	'breadcrumbs-desc' => 'వాడుకరులకు వికీలో తోవ చూపిస్తుంది',
+	'prefs-breadcrumbs-separator' => 'జాడల నియంత్రకం',
+	'prefs-breadcrumbs' => 'జాడలు',
+	'prefs-breadcrumbs-showcrumbs' => 'జాడలు చూపించు',
+	'prefs-breadcrumbs-numberofcrumbs' => 'జాడల సంఖ్య',
+	'prefs-breadcrumbs-numberofcrumbs-max' => 'గరిష్టంగా 20 జాడలవరకు చూపించబడును',
 );
 
 /** Tetum (tetun)
