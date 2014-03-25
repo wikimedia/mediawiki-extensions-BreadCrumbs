@@ -168,6 +168,7 @@ $messages['br'] = array(
 	'prefs-breadcrumbs-showcrumbs' => 'Diskouez ar varenn merdeiñ',
 	'prefs-breadcrumbs-numberofcrumbs' => 'Niver a liammoù merdeiñ',
 	'prefs-breadcrumbs-numberofcrumbs-max' => "20 liamm merdeiñ a c'hall bezañ diskouzet d'ar muiañ.",
+	'prefs-breadcrumbs-filter-duplicates' => 'Silañ ar pajennoù gweladennet meur a wech',
 	'prefs-breadcrumbs-preceding-text-max' => "30 arouezenn d'ar muiañ a c'hall bezañ ebarzhet.",
 );
 
