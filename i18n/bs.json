@@ -1,0 +1,12 @@
+{
+    "@metadata": {
+        "authors": [
+            "CERminator"
+        ]
+    },
+    "breadcrumbs-desc": "Dodaje trag za navigaciju putem mrvica ispod trake sa jezičcima",
+    "prefs-breadcrumbs": "Mrvice",
+    "prefs-breadcrumbs-showcrumbs": "Prikaži mrvice",
+    "prefs-breadcrumbs-numberofcrumbs": "Broj mrvica",
+    "prefs-breadcrumbs-numberofcrumbs-max": "Najviše 20 mrvica"
+}

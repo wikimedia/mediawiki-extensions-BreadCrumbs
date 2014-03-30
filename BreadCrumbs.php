@@ -23,7 +23,7 @@ $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'BreadCrumbs',
 	'descriptionmsg' => 'breadcrumbs-desc',
-	'version' => '0.3.2',
+	'version' => '0.4.0',
 	'author' => array( 'Manuel Schneider', '[http://milcord.com Tony Boyles, Milcord llc]' ),
 	'url' => 'https://www.mediawiki.org/wiki/Extension:BreadCrumbs',
 );
@@ -78,6 +78,7 @@ $wgHooks['GetPreferences'][] = 'fnBreadCrumbsAddPreferences';
 # Infrastructure:
 
 # Register the internationalization file
+$wgMessagesDirs['Breadcrumbs'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['Breadcrumbs'] = dirname( __FILE__ ) . '/BreadCrumbs.i18n.php';
 
 # Load the file containing the hook functions:
