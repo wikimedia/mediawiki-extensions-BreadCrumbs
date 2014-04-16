@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Audriusa",
-            "Garas"
-        ]
-    },
-    "breadcrumbs-desc": "Rodo naudotojo kelią svetainėje",
-    "prefs-breadcrumbs-preceding-text-max": "Ne daugiau 30 spaudos ženklų."
+	"@metadata": {
+		"authors": [
+			"Audriusa",
+			"Garas"
+		]
+	},
+	"breadcrumbs-desc": "Rodo naudotojo kelią svetainėje",
+	"prefs-breadcrumbs-preceding-text-max": "Ne daugiau 30 spaudos ženklų."
 }

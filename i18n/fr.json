@@ -1,20 +1,20 @@
 {
-    "@metadata": {
-        "authors": [
-            "Gomoko",
-            "IAlex",
-            "Peter17"
-        ]
-    },
-    "breadcrumbs-desc": "Ajoute une suite de liens de navigation sous la barre d'onglets",
-    "prefs-breadcrumbs-separator": "Séparateur du fil d'Ariane",
-    "prefs-breadcrumbs-separator-max": "Un maximum de 2 caractères peuvent être entrés.",
-    "prefs-breadcrumbs": "Barre de navigation",
-    "prefs-breadcrumbs-showcrumbs": "Afficher la barre de navigation",
-    "prefs-breadcrumbs-numberofcrumbs": "Nombre de liens de navigation",
-    "prefs-breadcrumbs-numberofcrumbs-max": "Au maximum 20 liens de navigation peuvent être affichés",
-    "prefs-breadcrumbs-namespaces": "Inclure les espaces de noms dans les fils d'Ariane",
-    "prefs-breadcrumbs-filter-duplicates": "Filtrer les pages visitées à plusieurs reprises",
-    "prefs-breadcrumbs-preceding-text": "Texte à afficher devant les fils d'Ariane",
-    "prefs-breadcrumbs-preceding-text-max": "Un maximum de 30 caractères peuvent être entrés."
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"IAlex",
+			"Peter17"
+		]
+	},
+	"breadcrumbs-desc": "Ajoute une suite de liens de navigation sous la barre d'onglets",
+	"prefs-breadcrumbs-separator": "Séparateur du fil d'Ariane",
+	"prefs-breadcrumbs-separator-max": "Un maximum de 2 caractères peuvent être entrés.",
+	"prefs-breadcrumbs": "Barre de navigation",
+	"prefs-breadcrumbs-showcrumbs": "Afficher la barre de navigation",
+	"prefs-breadcrumbs-numberofcrumbs": "Nombre de liens de navigation",
+	"prefs-breadcrumbs-numberofcrumbs-max": "Au maximum 20 liens de navigation peuvent être affichés",
+	"prefs-breadcrumbs-namespaces": "Inclure les espaces de noms dans les fils d'Ariane",
+	"prefs-breadcrumbs-filter-duplicates": "Filtrer les pages visitées à plusieurs reprises",
+	"prefs-breadcrumbs-preceding-text": "Texte à afficher devant les fils d'Ariane",
+	"prefs-breadcrumbs-preceding-text-max": "Un maximum de 30 caractères peuvent être entrés."
 }

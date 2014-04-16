@@ -1,13 +1,13 @@
 {
-    "@metadata": {
-        "authors": [
-            "Farras"
-        ]
-    },
-    "breadcrumbs-desc": "Menambahkan jejak remahroti di bawah kotak tab",
-    "prefs-breadcrumbs-separator": "Pemisah remah roti",
-    "prefs-breadcrumbs": "Remah Roti",
-    "prefs-breadcrumbs-showcrumbs": "Tampilkan remah roti",
-    "prefs-breadcrumbs-numberofcrumbs": "Jumlah remah roti",
-    "prefs-breadcrumbs-numberofcrumbs-max": "Hasil maksimum 20 remah roti."
+	"@metadata": {
+		"authors": [
+			"Farras"
+		]
+	},
+	"breadcrumbs-desc": "Menambahkan jejak remahroti di bawah kotak tab",
+	"prefs-breadcrumbs-separator": "Pemisah remah roti",
+	"prefs-breadcrumbs": "Remah Roti",
+	"prefs-breadcrumbs-showcrumbs": "Tampilkan remah roti",
+	"prefs-breadcrumbs-numberofcrumbs": "Jumlah remah roti",
+	"prefs-breadcrumbs-numberofcrumbs-max": "Hasil maksimum 20 remah roti."
 }
