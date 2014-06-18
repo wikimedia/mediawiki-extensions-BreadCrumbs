@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Vito Genovese"
+			"Vito Genovese",
+			"Sayginer"
 		]
 	},
-	"breadcrumbs-desc": "Vikide kullanıcıların konumunu gösterir"
+	"breadcrumbs-desc": "Vikide kullanıcıların konumunu gösterir",
+	"prefs-breadcrumbs-preceding-text-max": "En fazla 30 karakter girilebilir."
 }
