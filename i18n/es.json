@@ -3,12 +3,13 @@
 		"authors": [
 			"Armando-Martin",
 			"Crazymadlover",
-			"Translationista"
+			"Translationista",
+			"Macofe"
 		]
 	},
 	"breadcrumbs-desc": "Añade los vínculos del recorrido de navegación bajo la barra de pestañas",
 	"prefs-breadcrumbs-separator": "Separador en la Ruta de navegación",
-	"prefs-breadcrumbs-separator-max": "Puede introducir un máximo de 2 caracteres.",
+	"prefs-breadcrumbs-separator-max": "Puedes escribir un máximo de 2 caracteres.",
 	"prefs-breadcrumbs": "Recorrido de navegación",
 	"prefs-breadcrumbs-showcrumbs": "Mostrar el recorrido de navegación",
 	"prefs-breadcrumbs-numberofcrumbs": "Número de vínculos de recorrido de navegación",
@@ -16,5 +17,5 @@
 	"prefs-breadcrumbs-namespaces": "Incluir espacios de nombre en la ruta de navegación",
 	"prefs-breadcrumbs-filter-duplicates": "Filtrar las páginas visitadas repetidamente",
 	"prefs-breadcrumbs-preceding-text": "Texto que aparece antes de la Guía de navegación",
-	"prefs-breadcrumbs-preceding-text-max": "Puede introducir un máximo de 30 caracteres."
+	"prefs-breadcrumbs-preceding-text-max": "Puedes escribir un máximo de 30 caracteres."
 }
