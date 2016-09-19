@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Darth Kule"
+			"Darth Kule",
+			"Tosky"
 		]
 	},
-	"breadcrumbs-desc": "Mostra gli utenti il percorso attraverso la wiki",
+	"breadcrumbs-desc": "Mostra gli utenti il percorso attraverso il wiki",
 	"prefs-breadcrumbs-separator": "Separatore delle breadcrumb",
 	"prefs-breadcrumbs-separator-max": "Possono essere inseriti al massimo 2 caratteri.",
 	"prefs-breadcrumbs": "Breadcrumb",
