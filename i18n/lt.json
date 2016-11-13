@@ -2,9 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Audriusa",
-			"Garas"
+			"Garas",
+			"Eitvys200"
 		]
 	},
 	"breadcrumbs-desc": "Rodo naudotojo kelią svetainėje",
+	"prefs-breadcrumbs-separator-max": "Galima įvesti ne daugiau 2 simbolių.",
+	"prefs-breadcrumbs-filter-duplicates": "Filtruoti nuolatos lankomus puslapius",
 	"prefs-breadcrumbs-preceding-text-max": "Ne daugiau 30 spaudos ženklų."
 }
