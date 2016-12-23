@@ -10,6 +10,8 @@
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  */
 
+use MediaWiki\MediaWikiServices;
+
 if ( !defined( 'MEDIAWIKI' ) ) {
 	echo( "This file is an extension to the MediaWiki software and cannot be used standalone.\n" );
 	die();
@@ -77,12 +79,13 @@ function fnBreadCrumbsShowHook( $out, $parserOutput ) {
 		$title = Title::newFromText( $m_BreadCrumbs[$j] );
 		if ( !in_array( $title->getNsText(), $wgBreadCrumbsIgnoreNameSpaces ) ) {
 			if ( $wgBreadCrumbsLink ) {
+				$linkRenderer = MediaWikiServices::getInstance()->getLinkRenderer();
 				# For whatever reason, the Linker doesn't play nice in Versions before 1.18.0...
 				if ( version_compare( SpecialVersion::getVersion(), '1.18.0' ) > -1 ) {
 					if ( $wluOptions['breadcrumbs-namespaces'] ) {
-						$breadcrumb = Linker::link( $title, $m_BreadCrumbs[$j] );
+						$breadcrumb = $linkRenderer->makeLink( $title, $m_BreadCrumbs[$j] );
 					} else {
-						$breadcrumb = Linker::link( $title, $title->getText() );
+						$breadcrumb = $linkRenderer->makeLink( $title, $title->getText() );
 					}
 				} elseif ( $wluOptions['breadcrumbs-namespaces'] ) {
 					$breadcrumb = '<a href="' . $title->getFullURL()
