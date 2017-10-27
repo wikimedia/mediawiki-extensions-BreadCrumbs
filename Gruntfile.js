@@ -8,7 +8,9 @@ module.exports = function ( grunt ) {
 	grunt.initConfig( {
 		jshint: {
 			all: [
-				'*.js'
+				'*.js',
+				'!node_modules/**',
+				'!vendor/**'
 			]
 		},
 		jscs: {
@@ -21,7 +23,8 @@ module.exports = function ( grunt ) {
 			all: [
 				'*.json',
 				'**/*.json',
-				'!node_modules/**'
+				'!node_modules/**',
+				'!vendor/**'
 			]
 		}
 	} );
