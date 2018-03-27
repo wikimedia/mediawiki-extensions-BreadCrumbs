@@ -14,7 +14,7 @@
 	"prefs-breadcrumbs": "面包屑",
 	"prefs-breadcrumbs-showcrumbs": "显示面包屑",
 	"prefs-breadcrumbs-numberofcrumbs": "面包屑数量",
-	"prefs-breadcrumbs-numberofcrumbs-max": "最多可以显示20个面包屑",
+	"prefs-breadcrumbs-numberofcrumbs-max": "最多可以显示20个面包屑。",
 	"prefs-breadcrumbs-namespaces": "在面包屑中包含名字空间",
 	"prefs-breadcrumbs-filter-duplicates": "滤出多次访问过的页面",
 	"prefs-breadcrumbs-preceding-text": "面包屑前出现的文字",
