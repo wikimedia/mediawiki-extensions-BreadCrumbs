@@ -44,7 +44,7 @@ function fnBreadCrumbsShowHook( $out, $parserOutput ) {
 
 	# if we have breadcrumbs, let's use them:
 	if ( $m_BreadCrumbs === null ) {
-		$m_BreadCrumbs = array();
+		$m_BreadCrumbs = [];
 	}
 
 	# cache index of last element:
@@ -73,7 +73,7 @@ function fnBreadCrumbsShowHook( $out, $parserOutput ) {
 
 	# Build the breadcrumbs trail:
 	$breadcrumbs = '';
-	$max = min( array( $wluOptions['breadcrumbs-numberofcrumbs'], count( $m_BreadCrumbs ) ) );
+	$max = min( [ $wluOptions['breadcrumbs-numberofcrumbs'], count( $m_BreadCrumbs ) ] );
 	for ( $i = 1; $i <= $max; $i++ ) {
 		$j = count( $m_BreadCrumbs ) - $i;
 		$title = Title::newFromText( $m_BreadCrumbs[$j] );
@@ -135,22 +135,22 @@ function fnBreadCrumbsAddPreferences( $user, &$defaultPreferences ) {
 	global $wgBreadCrumbsAllowUPOs;
 
 	if ( $wgBreadCrumbsAllowUPOs ) {
-		$defaultPreferences['breadcrumbs-showcrumbs'] = array(
+		$defaultPreferences['breadcrumbs-showcrumbs'] = [
 			'type' => 'toggle',
 			'section' => 'rendering/breadcrumbs',
-			'label-message' => 'prefs-breadcrumbs-showcrumbs' );
+			'label-message' => 'prefs-breadcrumbs-showcrumbs' ];
 
-		$defaultPreferences['breadcrumbs-namespaces'] = array(
+		$defaultPreferences['breadcrumbs-namespaces'] = [
 			'type' => 'toggle',
 			'section' => 'rendering/breadcrumbs',
-			'label-message' => 'prefs-breadcrumbs-namespaces', );
+			'label-message' => 'prefs-breadcrumbs-namespaces', ];
 
-		$defaultPreferences['breadcrumbs-filter-duplicates'] = array(
+		$defaultPreferences['breadcrumbs-filter-duplicates'] = [
 			'type' => 'toggle',
 			'section' => 'rendering/breadcrumbs',
-			'label-message' => 'prefs-breadcrumbs-filter-duplicates' );
+			'label-message' => 'prefs-breadcrumbs-filter-duplicates' ];
 
-		$defaultPreferences['breadcrumbs-numberofcrumbs'] = array(
+		$defaultPreferences['breadcrumbs-numberofcrumbs'] = [
 			'type' => 'int',
 			'min' => 1,
 			'max' => 20,
@@ -158,23 +158,23 @@ function fnBreadCrumbsAddPreferences( $user, &$defaultPreferences ) {
 			'size' => 2,
 			'maxlength' => 2,
 			'label-message' => 'prefs-breadcrumbs-numberofcrumbs',
-			'help-message' => 'prefs-breadcrumbs-numberofcrumbs-max' );
+			'help-message' => 'prefs-breadcrumbs-numberofcrumbs-max' ];
 
-		$defaultPreferences['breadcrumbs-preceding-text'] = array(
+		$defaultPreferences['breadcrumbs-preceding-text'] = [
 			'type' => 'text',
 			'section' => 'rendering/breadcrumbs',
 			'size' => 34,
 			'maxlength' => 30,
 			'label-message' => 'prefs-breadcrumbs-preceding-text',
-			'help-message' => 'prefs-breadcrumbs-preceding-text-max' );
+			'help-message' => 'prefs-breadcrumbs-preceding-text-max' ];
 
-		$defaultPreferences['breadcrumbs-delimiter'] = array(
+		$defaultPreferences['breadcrumbs-delimiter'] = [
 			'type' => 'text',
 			'section' => 'rendering/breadcrumbs',
 			'size' => 2,
 			'maxlength' => 2,
 			'label-message' => 'prefs-breadcrumbs-separator',
-			'help-message' => 'prefs-breadcrumbs-separator-max' );
+			'help-message' => 'prefs-breadcrumbs-separator-max' ];
 	}
 
 	return true;

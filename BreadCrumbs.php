@@ -19,19 +19,19 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 }
 
 # Register extension credits:
-$wgExtensionCredits['other'][] = array(
+$wgExtensionCredits['other'][] = [
 	'path' => __FILE__,
 	'name' => 'BreadCrumbs',
 	'descriptionmsg' => 'breadcrumbs-desc',
 	'version' => '0.5.0',
-	'author' => array(
+	'author' => [
 		'Manuel Schneider',
 		'Tony Boyles',
 		'...'
-	),
+	],
 	'url' => 'https://www.mediawiki.org/wiki/Extension:BreadCrumbs',
 	'license-name' => 'GPL-2.0-or-later'
-);
+];
 
 # Default Options:
 
@@ -69,7 +69,7 @@ $wgBreadCrumbsLink = true;
 $wgDefaultUserOptions['breadcrumbs-preceding-text'] = '';
 
 # If you don't want certain Namespaces recorded, add them here:
-$wgBreadCrumbsIgnoreNameSpaces = array();
+$wgBreadCrumbsIgnoreNameSpaces = [];
 
 # Hooks:
 
@@ -79,20 +79,18 @@ $wgHooks['BeforePageDisplay'][] = 'fnBreadCrumbsShowHook';
 # When presenting options to users, add BreadCrumbs configurations
 $wgHooks['GetPreferences'][] = 'fnBreadCrumbsAddPreferences';
 
-
 # Infrastructure:
 
 # Register the internationalization file
 $wgMessagesDirs['Breadcrumbs'] = __DIR__ . '/i18n';
 
 # Load the file containing the hook functions:
-require_once( 'BreadCrumbsFunctions.php' );
+require_once 'BreadCrumbsFunctions.php';
 
 # Resource loader
-$wgResourceModules['ext.breadCrumbs'] = array(
+$wgResourceModules['ext.breadCrumbs'] = [
 	'styles' => 'BreadCrumbs.css',
 	'position' => 'top',
 	'localBasePath' => __DIR__,
 	'remoteExtPath' => 'BreadCrumbs'
-);
-
+];
