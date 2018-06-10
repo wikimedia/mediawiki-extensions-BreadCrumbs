@@ -12,85 +12,36 @@
  * @copyright © 2007 by Manuel Schneider, 2012 by Tony Boyles, Milcord llc
  * @license https://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  */
-
-if ( !defined( 'MEDIAWIKI' ) ) {
-	echo( "This file is an extension to the MediaWiki software and cannot be used standalone.\n" );
-	die();
+if ( function_exists( 'wfLoadExtension' ) ) {
+	wfLoadExtension( 'BreadCrumbs' );
+	// Keep i18n globals so mergeMessageFileList.php doesn't break
+	$wgMessagesDirs['BreadCrumbs'] = __DIR__ . '/i18n';
+	wfWarn(
+		'Deprecated PHP entry point used for the BreadCrumbs extension. ' .
+		'Please use wfLoadExtension instead, ' .
+		'see https://www.mediawiki.org/wiki/Extension_registration for more details.'
+	);
+	return;
+} else {
+	die( 'This version of the BreadCrumbs extension requires MediaWiki 1.29+' );
 }
 
-# Register extension credits:
-$wgExtensionCredits['other'][] = [
-	'path' => __FILE__,
-	'name' => 'BreadCrumbs',
-	'descriptionmsg' => 'breadcrumbs-desc',
-	'version' => '0.5.0',
-	'author' => [
-		'Manuel Schneider',
-		'Tony Boyles',
-		'...'
-	],
-	'url' => 'https://www.mediawiki.org/wiki/Extension:BreadCrumbs',
-	'license-name' => 'GPL-2.0-or-later'
-];
+// Code below this is never reached and present for IDE convenience only
 
-# Default Options:
-
-# Whether to provide breadcrumbs to users by default
-$wgDefaultUserOptions['breadcrumbs-showcrumbs'] = true;
-
-# Whether to provide the links also for anonymous users:
+/** @var bool Whether to provide the links also for anonymous users */
 $wgBreadCrumbsShowAnons = true;
 
-# $wgBreadCrumbsAllowUPOs - Should users be allowed to configure BreadCrumbs Options?
+/** @var bool Should users be allowed to configure BreadCrumbs Options? */
 $wgBreadCrumbsAllowUPOs = true;
 
-# $wgBreadCrumbsDelimiter - set the delimiter
-$wgDefaultUserOptions['breadcrumbs-delimiter'] = '>';
-
-# $wgBreadCrumbsCount - number of breadcrumbs to use
-$wgDefaultUserOptions['breadcrumbs-numberofcrumbs'] = 5;
-
-# Whether to show the breadcrumbs' namespaces
-$wgDefaultUserOptions['breadcrumbs-namespaces'] = true;
-
-# Whether to ignore pages that are already in breadcrumbs
-$wgDefaultUserOptions['breadcrumbs-filter-duplicates'] = false;
-
-# Whether to ignore page refreshes
+/** @var bool Whether to ignore page refreshes */
 $wgBreadCrumbsIgnoreRefreshes = true;
 
-# Whether to rearrange history - Not yet used
+/** @var bool Whether to rearrange history - Not yet used */
 $wgBreadCrumbsRearrangeHistory = false;
 
-# Whether to link our breadcrumbs
+/** @var bool Whether to link our breadcrumbs */
 $wgBreadCrumbsLink = true;
 
-# Text to appear before breadcrumbs
-$wgDefaultUserOptions['breadcrumbs-preceding-text'] = '';
-
-# If you don't want certain Namespaces recorded, add them here:
+/** @var string[] If you don't want certain Namespaces recorded, add them here */
 $wgBreadCrumbsIgnoreNameSpaces = [];
-
-# Hooks:
-
-# Load BreadCrumbs when viewing article header
-$wgHooks['BeforePageDisplay'][] = 'fnBreadCrumbsShowHook';
-
-# When presenting options to users, add BreadCrumbs configurations
-$wgHooks['GetPreferences'][] = 'fnBreadCrumbsAddPreferences';
-
-# Infrastructure:
-
-# Register the internationalization file
-$wgMessagesDirs['Breadcrumbs'] = __DIR__ . '/i18n';
-
-# Load the file containing the hook functions:
-require_once 'BreadCrumbsFunctions.php';
-
-# Resource loader
-$wgResourceModules['ext.breadCrumbs'] = [
-	'styles' => 'BreadCrumbs.css',
-	'position' => 'top',
-	'localBasePath' => __DIR__,
-	'remoteExtPath' => 'BreadCrumbs'
-];
