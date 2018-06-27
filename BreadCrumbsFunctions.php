@@ -115,7 +115,7 @@ function fnBreadCrumbsShowHook( $out, $parserOutput ) {
 	$out->addModuleStyles( 'ext.breadCrumbs' );
 
 	# And add our BreadCrumbs!
-	$out->prependHTML( $breadcrumbs );
+	$out->addSubtitle( $breadcrumbs );
 
 	# Finally, invalidate internal MediaWiki cache:
 	$wgUser->invalidateCache();
