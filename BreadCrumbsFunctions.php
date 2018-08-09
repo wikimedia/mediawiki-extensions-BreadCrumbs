@@ -36,9 +36,7 @@ class BreadCrumbsFunctions {
 		}
 
 		# If we are Anons and should see breadcrumbs, but there's no session, let's start one so we can track from page-to-page
-		if ( session_id() === "" ) {
-			wfSetupSession();
-		}
+		$out->getRequest()->getSession()->persist();
 
 		# Get our data from $_SESSION:
 		$m_BreadCrumbs = $wgRequest->getSessionData( 'BreadCrumbs' );
