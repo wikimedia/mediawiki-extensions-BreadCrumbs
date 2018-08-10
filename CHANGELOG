@@ -1,5 +1,9 @@
 This file contains the CHANGELOG (version history) of the BreadCrumbs extension.
 
+* v0.6.1 - 2018-10-08
+  - Removed dependencies on globals $wgUser and $wgRequest
+  - Removed compatibility code for 1.18.0 that had been obsolete since 2016 (change 328894)
+
 * v0.6.0 - 2018-06-10
   - Converted to use extension registration
   - Minor style fixes
