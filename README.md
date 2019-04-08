@@ -56,13 +56,13 @@ Any of these may be overridden in LocalSettings.php.
 BUGS, CONTACT
 --------------------------------------------------------------------------
 
-Write us on http://www.mediawiki.org/wiki/Extension_talk:BreadCrumbs and
+Write us on https://www.mediawiki.org/wiki/Extension_talk:BreadCrumbs and
 we'll see what we can do for you.
 
 Alternatively you can reach me (Tony Boyles) [by e-mail](mailto:ABoyles@milcord.com)
 
 The description page of this extension can be found at:
-http://www.mediawiki.org/wiki/Extension:BreadCrumbs
+https://www.mediawiki.org/wiki/Extension:BreadCrumbs
 
 
 ATTRIBUTION
