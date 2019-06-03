@@ -31,12 +31,11 @@
 	},
 	"Hooks": {
 		"BeforePageDisplay": "BreadCrumbsFunctions::fnBreadCrumbsShowHook",
-		"GetPreferences" : "BreadCrumbsFunctions::fnBreadCrumbsAddPreferences"
+		"GetPreferences": "BreadCrumbsFunctions::fnBreadCrumbsAddPreferences"
 	},
 	"ResourceModules": {
 		"ext.breadCrumbs": {
-			"styles": "BreadCrumbs.css",
-			"position": "top"
+			"styles": "BreadCrumbs.css"
 		}
 	},
 	"ResourceFileModulePaths": {
