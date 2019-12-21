@@ -12,7 +12,7 @@ Copy the BreadCrumbs directory into the extensions folder of your
 MediaWiki installation. Then add the following lines to your
 LocalSettings.php file (near the end):
 
-    require_once( 'extensions/BreadCrumbs/BreadCrumbs.php' );
+    wfLoadExtension( 'BreadCrumbs' );
 
 
 PARAMETERS/APPEARANCE
