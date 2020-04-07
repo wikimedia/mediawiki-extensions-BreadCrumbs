@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
+			"Dianakc",
 			"Giro720",
-			"555",
-			"Dianakc"
+			555
 		]
 	},
 	"breadcrumbs-desc": "Adiciona o percurso até a página corrente, por baixo da barra de separadores",
