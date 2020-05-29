@@ -113,7 +113,7 @@ class BreadCrumbsFunctions {
 
 	/**
 	 * @param $user User
-	 * @param $defaultPreferences array
+	 * @param &$defaultPreferences array
 	 * @return bool
 	 */
 	public static function fnBreadCrumbsAddPreferences( $user, &$defaultPreferences ) {
