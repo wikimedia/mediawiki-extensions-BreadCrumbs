@@ -14,8 +14,8 @@ use MediaWiki\MediaWikiServices;
 
 class BreadCrumbsFunctions {
 	/**
-	 * @param $out OutputPage
-	 * @param $parserOutput ParserOutput
+	 * @param OutputPage $out
+	 * @param ParserOutput $parserOutput
 	 * @return bool
 	 */
 	public static function fnBreadCrumbsShowHook( $out, $parserOutput ) {
@@ -112,8 +112,8 @@ class BreadCrumbsFunctions {
 	}
 
 	/**
-	 * @param $user User
-	 * @param &$defaultPreferences array
+	 * @param User $user
+	 * @param array &$defaultPreferences
 	 * @return bool
 	 */
 	public static function fnBreadCrumbsAddPreferences( $user, &$defaultPreferences ) {
